@@ -33,4 +33,4 @@ I am currently a PhD student in Operations Research at [Industrial and Enterpris
 
 ## Contact
    - Email: zikunye2 \<at\> illinois \<dot\> edu
-   - Office: Transportation Building, 104 S. Mathews Ave. Urbana, IL 61801
+   - Office: Transportation Building, 104 S. Mathews Ave, Urbana, IL, 61801
