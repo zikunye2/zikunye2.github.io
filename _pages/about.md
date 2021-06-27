@@ -10,7 +10,7 @@ redirect_from:
 
 I am currently a PhD student of Operations Research at Industrial and Enterprise Systems Engineering, University of Illinois at Urbana Champaign. My research focuses on revenue management, online advertising, and field experiments.
 
-# Research
+## Research
 
 1. [Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786), with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen. Under review in **Management Science**
     -    **Finalist,** 2021 INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize.
@@ -20,13 +20,13 @@ I am currently a PhD student of Operations Research at Industrial and Enterprise
 
 2. Booking Limit Controls in Network Revenue Management with Random Reservations and Capacity, with Xin Chen. Paper under preparation.
 
-# Awards
+## Awards
 
 1. Finalist Jeff McGill Student Paper Prize, INFORMS Revenue Management and Pricing Section, 2021
 2. William A Chittenden II Award, UIUC, 2021
 
 
-# Contact
-> You can find me via email zikunye2 AT illinois.edu
+## Contact
+   - Email: zikunye2 AT illinois.edu
 
-> Office: Transportation Building, 104 S. Mathews Ave. Urbana, IL 61801
+   - Office: Transportation Building, 104 S. Mathews Ave. Urbana, IL 61801
