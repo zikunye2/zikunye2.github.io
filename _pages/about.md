@@ -8,7 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD student of Operations Research at Industrial and Enterprise Systems Engineering, University of Illinois at Urbana Champaign. My research focuses on revenue management, online advertising, and field experiments.
+I am currently a PhD student in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois at Urbana-Champaign](https://ise.illinois.edu). My research focuses on revenue management, online advertising, and field experiments.
+
+## Education
+
+- **University of Illinois Urbana-Champaign**, Ph.D. in Operations Research (2018 – 2023 expected)
+- **Shanghai Jiao Tong University**, B.S. in Industrial Engineering and Mathematics (2014 - 2018)
 
 ## Research
 
@@ -27,5 +32,5 @@ I am currently a PhD student of Operations Research at Industrial and Enterprise
 
 
 ## Contact
-   - Email: zikunye2 AT illinois.edu
+   - Email: zikunye2 <at> illinois <dot> edu
    - Office: Transportation Building, 104 S. Mathews Ave. Urbana, IL 61801
