@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD student in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois at Urbana-Champaign](https://ise.illinois.edu). My research focuses on revenue management, online advertising, and field experiments.
+I am currently a PhD student in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois at Urbana-Champaign](https://ise.illinois.edu). My research focuses on revenue management, online advertising, and field experiments design. For revenue management, my research interests lie in online algorithms, online platform operations and the network revenue management. For field experiment designs, I am espescially interested in designs in two-sided online platforms and heterogeneous treatment effects, how to restore the SUTVA violation and identify the casual effect with limited data.
 
 ## Education
 
@@ -24,6 +24,7 @@ I am currently a PhD student in Operations Research at [Industrial and Enterpris
 
 
 2. Booking Limit Controls in Network Revenue Management with Random Reservations and Capacity, with Xin Chen. Paper under preparation.
+
 
 ## Awards
 
