@@ -8,22 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD candidate in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois at Urbana-Champaign](https://ise.illinois.edu). My research focuses on data driven revenue management, and empirical operations management. For revenue management, my current research focus on online algorithms, online platform operations and the network revenue management. For empirical study, I am espescially interested in field experiment designs for online platforms such as heterogeneous treatment effects identification, and design for two side markets under the SUTVA violation.
+I am currently a PhD candidate in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois at Urbana-Champaign](https://ise.illinois.edu). My research focuses on data-driven optimization, field experiments and causal inference with applications in revenue management and platform operations. I am fortunate to be co-advised by Prof. [Xin Chen](https://ise.illinois.edu/directory/profile/xinchen) and Prof. [Dennis Zhang](http://denniszhang.org). 
 
 ## Education
 
-- **University of Illinois Urbana-Champaign**, Ph.D. in Operations Research (2018 – 2023 expected)
+- **University of Illinois Urbana-Champaign**, Ph.D. in Operations Research (2018 – 2024 expected)
 - **Shanghai Jiao Tong University**, B.S. in Industrial Engineering and Mathematics (2014 - 2018)
 
 ## Research
 
-1. [Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786), with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen. Minor Revision under **Management Science**
+1. [Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786), with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen. accepted at **Management Science**
    -    **Finalist,** 2020 INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize.
    -    MSOM Conference, 2021
    -    Informs Annual Meeting, 2021
 
 
-2. Booking Limit Control for Air Cargo Network Revenue Management, with Xin Chen. Paper under preparation.
+2. Optimal Algorithms for Minimizing Composition of Convex Function and Random Functions and Its Applications in Network Revenue Management, with Xin Chen, Niao He, Yifan Hu. under preparation for **Operations Research**.
+
+3. Deep Learning Based Inference Framework for Multiple A/B Tests Heterogeneity on Large Scale Platforms”, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, working paper.
 
 
 
