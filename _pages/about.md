@@ -23,7 +23,7 @@ I am currently a PhD candidate in Operations Research at [Industrial and Enterpr
    -    Informs Annual Meeting, 2021
 
 
-2. Optimal Algorithms for Minimizing Composition of Convex Function and Random Functions and Its Applications in Network Revenue Management, with Xin Chen, Niao He, Yifan Hu. under preparation for **Operations Research**.
+2. Optimal Algorithms for Minimizing Composition of Convex Function and Random Functions and Its Applications in Network Revenue Management, with Xin Chen, Niao He, Yifan Hu. under preparation for Operations Research.
 
 3. Deep Learning Based Inference Framework for Multiple A/B Tests Heterogeneity on Large Scale Platforms”, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, working paper.
 
