@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD candidate in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois at Urbana-Champaign](https://ise.illinois.edu). My research focuses on data-driven optimization, field experiments and causal inference with applications in revenue management and platform operations. I am fortunate to be co-advised by Prof. [Xin Chen](https://ise.illinois.edu/directory/profile/xinchen) and Prof. [Dennis Zhang](http://denniszhang.org). 
+I am currently a PhD candidate in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois Urbana-Champaign](https://ise.illinois.edu). My research focuses on data-driven optimization, field experiments and causal inference with applications in revenue management and platform operations. I am advised by Prof. [Xin Chen](https://ise.illinois.edu/directory/profile/xinchen) and Prof. [Dennis Zhang](http://denniszhang.org). I am on the 2023-2024 academic job market. 
 
 ## Education
 
@@ -19,13 +19,30 @@ I am currently a PhD candidate in Operations Research at [Industrial and Enterpr
 
 1. [Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786), with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen. accepted at **Management Science**
    -    **Finalist,** 2020 INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize.
-   -    MSOM Conference, 2021
-   -    Informs Annual Meeting, 2021
-
 
 2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu. under review.
 
-3. Deep Learning Based Inference Framework for Multiple A/B Tests Heterogeneity on Large Scale Platforms”, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, working paper.
+3. Machine Learning Based Inference Framework for Multiple A/B Tests on Large Scale Platforms”, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, in preparation.
+
+
+## Conference Talks
+**Machine Learning Based Inference Framework for Multiple A/B Tests on Large Scale Platforms**
+- INFORMS ISMS Conference, Online. Jun. 2022
+
+
+**Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions**
+- INFORMS Annual Meeting, Indianapolis, IN. Oct. 2022 
+- MSOM SIG in SCM, Munich, Germany. Jun. 2022
+- INFORMS RMP Spotlight Session, Online. Jun. 2022
+- POMS Annual Conference, Online. May. 2022
+
+**Cold Start to Improve Market Thickness**
+- MSOM SIG in Service Management, Munich, Germany. Jun. 2022
+- INFORMS RMP Spotlight Session, Online. Jun. 2022
+- MIW, Online. May. 2022
+- POMS Annual Conference, Online. May. 2022
+- Cornell ORIE Young Researcher Workshop, Ithaca, NY. Oct. 2021
+- INFORMS Annual Meeting, Online. Oct. 2021
 
 
 
