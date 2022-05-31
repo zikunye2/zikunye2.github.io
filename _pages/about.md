@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD candidate in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois Urbana-Champaign](https://ise.illinois.edu). My research focuses on data-driven optimization, field experiments and causal inference with applications in revenue management and platform operations. I am advised by Prof. [Xin Chen](https://ise.illinois.edu/directory/profile/xinchen) and Prof. [Dennis Zhang](http://denniszhang.org). I am on the 2023-2024 academic job market. 
+I am currently a PhD candidate in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois Urbana-Champaign](https://ise.illinois.edu). My research focuses on data-driven optimization, field experiments and causal inference with applications in revenue management and platform operations. I am advised by Prof. [Xin Chen](https://ise.illinois.edu/directory/profile/xinchen) and Prof. [Dennis Zhang](http://denniszhang.org).
 
 ## Education
 
