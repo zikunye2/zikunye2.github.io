@@ -24,6 +24,10 @@ I am currently a PhD candidate in Operations Research at [Industrial and Enterpr
 
 3. Machine Learning Based Inference Framework for Multiple A/B Tests on Large Scale Platforms”, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, in preparation.
 
+## Teaching
+- Instructor, IE310 Deterministic Models in Optimization, Fall 2022
+- TA, IE360 Facilities Planning and Design, Fall 2019
+
 
 ## Conference Talks
 **Machine Learning Based Inference Framework for Multiple A/B Tests on Large Scale Platforms**
