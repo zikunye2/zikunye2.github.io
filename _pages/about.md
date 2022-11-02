@@ -30,7 +30,7 @@ I am currently a PhD candidate in Operations Research at [Industrial and Enterpr
 
 
 ## Conference Talks
-**Machine Learning Based Inference Framework for Multiple A/B Tests on Large Scale Platforms**
+**Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments**
 - 2022 Conference on Artificial Intelligence, Machine Learning, and Business Analytics, HBS. Dec. 2022
 - INFORMS ISMS Conference, Online. Jun. 2022
 
