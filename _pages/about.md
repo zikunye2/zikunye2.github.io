@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD candidate in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois Urbana-Champaign](https://ise.illinois.edu). My research focuses on data-driven optimization, field experiments and causal inference with applications in revenue management and platform operations. I am advised by Prof. [Xin Chen](https://ise.illinois.edu/directory/profile/xinchen) and Prof. [Dennis Zhang](http://denniszhang.org).
+I am currently a PhD candidate in Operations Research at [Industrial and Enterprise Systems Engineering, University of Illinois Urbana-Champaign](https://ise.illinois.edu). My research focuses on data-driven optimization, field experiments and causal inference with applications in revenue management and platform operations. I am advised by Prof. [Xin Chen](https://www.isye.gatech.edu/users/xin-chen) and Prof. [Dennis Zhang](http://denniszhang.org).
 
 ## Education
 
@@ -17,7 +17,7 @@ I am currently a PhD candidate in Operations Research at [Industrial and Enterpr
 
 ## Research
 
-1. [Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3702786), with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen. accepted at **Management Science**
+1. [Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.4550), with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen. accepted at **Management Science**
    -    **Finalist,** 2020 INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize.
 
 2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu. under review.
