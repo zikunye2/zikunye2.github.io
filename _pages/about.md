@@ -74,6 +74,6 @@ Teaching Assistant, IE 360 Facilities Planning and Design, Fall 2019
 - William A Chittenden II Award, UIUC, 2021
 
 
-## Contact
-   - Email: zikunye2 \<at\> illinois \<dot\> edu
-   - Office: 13 Transportation Building, 104 S. Mathews Ave, Urbana, IL, 61801
+> ## Contact
+>   - Email: zikunye2 \<at\> illinois \<dot\> edu
+>   - Office: 13 Transportation Building, 104 S. Mathews Ave, Urbana, IL, 61801
