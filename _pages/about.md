@@ -21,19 +21,22 @@ I am currently a PhD candidate in Operations Research at [Industrial and Enterpr
 
 1. Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, in preparation.
 
-2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu. under review at **Operations Research**.
+2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, under review at **Operations Research**.
    -    MSOM SIG Conference in SCM, 2022
    -    RMP Conference Spoltlight, 2022
 
-3. [Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.4550), with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen. **Management Science**
+3. [Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.4550), with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen, **Management Science**.
    -    Finalist, INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize, 2020
    -    MSOM SIG Conference in Service Management, 2022
    -    RMP Conference Spoltlight, 2022
 
 
 ## Teaching
-- Instructor, [IE 310 Deterministic Models in Optimization](https://zikunye2.github.io/teaching/ie310-fa-22), Fall 2022
-- TA, IE 360 Facilities Planning and Design, Fall 2019
+Instructor, [IE 310 Deterministic Models in Optimization](https://zikunye2.github.io/teaching/ie310-fa-22), Fall 2022
+- Teachers Ranked as Excellent by Students
+- Overall Teaching Effectiveness 4.64/5 (Campus 90% Rank)
+
+Teaching Assistant, IE 360 Facilities Planning and Design, Fall 2019
 
 
 ## Conference Talks
@@ -61,8 +64,8 @@ I am currently a PhD candidate in Operations Research at [Industrial and Enterpr
 
 ## Awards
 1. Teachers Ranked as Excellent by Students, UIUC, 2023
-1. Finalist Jeff McGill Student Paper Prize, INFORMS Revenue Management and Pricing Section, 2020
-2. William A Chittenden II Award, UIUC, 2021
+2. Finalist Jeff McGill Student Paper Prize, INFORMS Revenue Management and Pricing Section, 2020
+3 . William A Chittenden II Award, UIUC, 2021
 
 
 ## Contact
