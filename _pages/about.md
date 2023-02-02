@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -19,8 +18,13 @@ My primary research focuses on data-driven optimization and causal inference wit
 
 ## Education
 
-- University of Illinois Urbana Champaign, Ph.D., Operations Research (2018 – 2024 expected)
-- Shanghai Jiao Tong University, B.S., [Zhiyuan Engineering](https://en.zhiyuan.sjtu.edu.cn) and Mathematics (2014 - 2018)
+- Ph.D. in Operations Research  
+ University of Illinois Urbana Champaign (2018 – 2024 expected)
+
+- B.S. in Mathematics and Engineering (Zhiyuan Honors)  
+ Shanghai Jiao Tong University (2014 - 2018)
+   
+
 
 
 
