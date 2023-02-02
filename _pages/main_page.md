@@ -18,7 +18,7 @@ My primary research focuses on data-driven optimization and causal inference wit
 
 # Research
 
-## Papers
+### Papers
 1. Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, ***in preparation***.
 
 2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, ***under review at Operations Research***.
@@ -31,7 +31,7 @@ My primary research focuses on data-driven optimization and causal inference wit
    -    RMP Conference Spoltlight, 2022
 
 
-## Conference Talks
+### Conference Talks
 - Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments
    -    2022 Conference on Artificial Intelligence, Machine Learning, and Business Analytics, HBS. Dec. 2022
    -    INFORMS ISMS Conference, Online. Jun. 2022
@@ -52,6 +52,12 @@ My primary research focuses on data-driven optimization and causal inference wit
    -    Cornell ORIE Young Researcher Workshop, Ithaca, NY. Oct. 2021
    -    INFORMS Annual Meeting, Online. Oct. 2021
 
+### Academic Services
+- Reviewer for Manufacturing and Service Operations Management
+- Session chair, INFORMS Annual Meeting, 2022
+
+
+
 # Teaching
 - Instructor, [IE 310 Deterministic Models in Optimization](https://zikunye2.github.io/teaching/ie310-fa-22) (Undergrad), Fall 2022
   - Teachers Ranked as Excellent by Students
@@ -60,10 +66,6 @@ My primary research focuses on data-driven optimization and causal inference wit
 - Teaching Assistant, IE 360 Facilities Planning and Design (Undergrad), Fall 2019
 
 
-
-# Academic Services
-- Reviewer for Manufacturing and Service Operations Management
-- Session chair, INFORMS Annual Meeting, 2022
 
 # Awards
 - Teachers Ranked as Excellent by Students, 2023
