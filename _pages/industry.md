@@ -1,10 +1,10 @@
 ---
 permalink: /industry/
-title: ""
+title: " "
 author_profile: true
 ---
 
 
 Industry Experiences
 ======
-
+- Research Intern, 
