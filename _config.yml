@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Zikun Ye"
 title_separator          : "-"
 name                     : &name "Zikun Ye"
 logo                     : "/assets/UIUC.png"
@@ -85,7 +85,7 @@ google_analytics: UA-107258021-1
 # Site Author
 author:
   name             : "     Zikun Ye"
-  bio              : "PhD candidate at University of Illinois Urbana-Champaign, IL, US"
+  bio              : "PhD candidate in Operations Research at University of Illinois Urbana Champaign, IL, US"
   location         : # "Transportation Building, 104 S. Mathews Ave, Urbana, IL, 61801"
   avatar           : "profile.png"
   email            : "zikunye2@illinois.edu"
