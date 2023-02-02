@@ -90,6 +90,7 @@ author:
   location         : # "Transportation Building, 104 S. Mathews Ave, Urbana, IL, 61801"
   avatar           : "profile.png"
   email            : "zikunye2@illinois.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=lQ2Pd10AAAAJ&hl=en&oi=ao"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -99,7 +100,7 @@ author:
   facebook         :
   foursquare       :
   github           : 
-  google_plus      : "https://scholar.google.com/citations?user=lQ2Pd10AAAAJ&hl=en&oi=ao"
+  google_plus      : 
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
