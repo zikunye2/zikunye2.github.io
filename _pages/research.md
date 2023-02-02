@@ -19,19 +19,19 @@ author_profile: true
 
 
 # Conference Talks
-- **Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments**
+- Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments
    -    2022 Conference on Artificial Intelligence, Machine Learning, and Business Analytics, HBS. Dec. 2022
    -    INFORMS ISMS Conference, Online. Jun. 2022
 
 
-- **Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions**
+- Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions
    -    INFORMS Annual Meeting, Indianapolis, IN. Oct. 2022 
    -    MSOM SIG in SCM, Munich, Germany. Jun. 2022
    -    INFORMS RMP Spotlight Session, Online. Jun. 2022
    -    POMS Annual Conference, Online. May. 2022
 
 
-- **Cold Start to Improve Market Thickness**
+- Cold Start to Improve Market Thickness
    -    MSOM SIG in Service Management, Munich, Germany. Jun. 2022
    -    INFORMS RMP Spotlight Session, Online. Jun. 2022
    -    MIW, Online. May. 2022
@@ -43,3 +43,7 @@ author_profile: true
 - Reviewer for Manufacturing & Service Operations Management
 - Session chair
    -    2022 INFORMS Annual Meeting
+
+# Awards
+- William A Chittenden II Award, UIUC, 2021
+- Finalist Jeff McGill Student Paper Prize, INFORMS Revenue Management and Pricing Section, 2020
