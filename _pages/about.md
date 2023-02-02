@@ -72,8 +72,3 @@ Teaching Assistant, IE 360 Facilities Planning and Design, Fall 2019
 - Teachers Ranked as Excellent by Students, UIUC, 2023
 - Finalist Jeff McGill Student Paper Prize, INFORMS Revenue Management and Pricing Section, 2020
 - William A Chittenden II Award, UIUC, 2021
-
-
-> ## Contact
->   - Email: zikunye2 \<at\> illinois \<dot\> edu
->   - Office: 13 Transportation Building, 104 S. Mathews Ave, Urbana, IL, 61801
