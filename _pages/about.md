@@ -1,10 +1,7 @@
 ---
-permalink: /about
+permalink: /
 title: "About"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 Hi! I'm Zikun Ye. I am currently a PhD candidate in [Operations Research](https://ise.illinois.edu) at [University of Illinois Urbana-Champaign](https://illinois.edu). I am advised by Prof. [Xin Chen](https://www.isye.gatech.edu/users/xin-chen) and Prof. [Dennis Zhang](http://denniszhang.org).
