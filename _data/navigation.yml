@@ -1,14 +1,20 @@
 # main links links
 main:
-  - title: "Research"
-    url: /research/
+- title: "Research"
+  url: /#Research
+  
+- title: "Teaching"
+  url: /#Teaching
+  
+- title: "Awards"
+  url: /#Awards
+  
+  
+#  - title: "Research"
+#    url: /research/
     
-  - title: "Teaching & Working & Service"
-    url: /teaching/
-    
-  - title: "Test"
-    url: /research#Papers
-
+#  - title: "Teaching & Working & Service"
+#    url: /teaching/
     
 #  - title: "Industry"
 #    url: /industry/
