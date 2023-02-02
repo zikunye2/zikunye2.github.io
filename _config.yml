@@ -86,8 +86,9 @@ google_analytics: UA-107258021-1
 author:
   name             : "     Zikun Ye"
   bio              : "PhD candidate at University of Illinois Urbana-Champaign, IL, US"
+  location         : "Transportation Building, 104 S. Mathews Ave, Urbana, IL, 61801"
   avatar           : "profile.png"
-  email            : 
+  email            : "zikunye2@illinois.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
