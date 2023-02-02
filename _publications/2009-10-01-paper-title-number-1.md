@@ -1,15 +1,44 @@
 ---
-title: "Paper Title Number 1"
+title: "Research"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /research
+excerpt:
+date:
+venue:
+paperurl:
+citation: 'Your Name, You. (2023) &quot; <i>Journal 1</i>. 1(1).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+### Papers
+1. Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, ***in preparation***.
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, ***under review at Operations Research***.
+   -    MSOM SIG Conference in SCM, 2022
+   -    RMP Conference Spoltlight, 2022
+
+3. [Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.4550), with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen, ***Management Science*** (2022).
+   -    Finalist, INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize, 2020
+   -    MSOM SIG Conference in Service Management, 2022
+   -    RMP Conference Spoltlight, 2022
+
+
+### Conference Talks
+- **Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments**
+   -    2022 Conference on Artificial Intelligence, Machine Learning, and Business Analytics, HBS. Dec. 2022
+   -    INFORMS ISMS Conference, Online. Jun. 2022
+
+
+- **Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions**
+   -    INFORMS Annual Meeting, Indianapolis, IN. Oct. 2022 
+   -    MSOM SIG in SCM, Munich, Germany. Jun. 2022
+   -    INFORMS RMP Spotlight Session, Online. Jun. 2022
+   -    POMS Annual Conference, Online. May. 2022
+
+
+- **Cold Start to Improve Market Thickness**
+   -    MSOM SIG in Service Management, Munich, Germany. Jun. 2022
+   -    INFORMS RMP Spotlight Session, Online. Jun. 2022
+   -    MIW, Online. May. 2022
+   -    POMS Annual Conference, Online. May. 2022
+   -    Cornell ORIE Young Researcher Workshop, Ithaca, NY. Oct. 2021
+   -    INFORMS Annual Meeting, Online. Oct. 2021
