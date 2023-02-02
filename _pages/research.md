@@ -45,6 +45,3 @@ author_profile: true
 - Session chair, INFORMS Annual Meeting, 2022
 
 
-# Awards
-- William A Chittenden II Award, UIUC, 2021
-- Finalist Jeff McGill Student Paper Prize, INFORMS Revenue Management and Pricing Section, 2020
