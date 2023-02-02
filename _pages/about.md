@@ -18,10 +18,10 @@ My primary research focuses on data-driven optimization and causal inference wit
 
 ## Education
 
-- Ph.D. in Operations Research  
+- **Ph.D. in Operations Research**  
  University of Illinois Urbana Champaign (2018 – 2024 expected)
 
-- B.S. in Mathematics and Engineering (Zhiyuan Honors)  
+- **B.S. in Mathematics and Engineering** (Zhiyuan Honors)  
  Shanghai Jiao Tong University (2014 - 2018)
    
 
