@@ -2,11 +2,7 @@
 title: "Research"
 collection: publications
 permalink: /research
-excerpt:
-date:
-venue:
-paperurl:
-citation: 'Your Name, You. (2023) &quot; <i>Journal 1</i>. 1(1).'
+excerpt: "Research"
 ---
 
 ### Papers
