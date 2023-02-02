@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zikun Ye"
 title_separator          : "-"
 name                     : &name "Zikun Ye"
-logo                     : "/assets/images/UIUC.png"
+#logo                     : "/assets/images/UIUC.png"
 masthead_title           : "Zikun Ye"
 description              : &description "personal description"
 url                      : https://zikunye2.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -105,7 +105,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "zikunye"
+  #linkedin         : "zikunye"
   orcid            : 
   pinterest        :
   soundcloud       :
