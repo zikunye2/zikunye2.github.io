@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Research"
+title: ""
 permalink: /research/
 author_profile: true
 ---
 
-## Papers
+# Papers
 1. Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, ***in preparation***.
 
 2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, ***under review at Operations Research***.
@@ -18,7 +18,7 @@ author_profile: true
    -    RMP Conference Spoltlight, 2022
 
 
-## Conference Talks
+# Conference Talks
 - **Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments**
    -    2022 Conference on Artificial Intelligence, Machine Learning, and Business Analytics, HBS. Dec. 2022
    -    INFORMS ISMS Conference, Online. Jun. 2022
@@ -39,7 +39,7 @@ author_profile: true
    -    Cornell ORIE Young Researcher Workshop, Ithaca, NY. Oct. 2021
    -    INFORMS Annual Meeting, Online. Oct. 2021
 
-## Service
+# Service
 - Reviewer for Manufacturing & Service Operations Management
 - Session chair
    -    2022 INFORMS Annual Meeting
