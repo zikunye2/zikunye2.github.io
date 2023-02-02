@@ -39,10 +39,6 @@ author_profile: true
    -    Cornell ORIE Young Researcher Workshop, Ithaca, NY. Oct. 2021
    -    INFORMS Annual Meeting, Online. Oct. 2021
 
-# Service
-- Reviewer for Manufacturing & Service Operations Management
-- Session chair
-   -    2022 INFORMS Annual Meeting
 
 # Awards
 - William A Chittenden II Award, UIUC, 2021
