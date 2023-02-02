@@ -1,11 +1,11 @@
 ---
 title: "Research"
 collection: publications
-permalink: /research
+permalink: /pub_research/
 excerpt: "Research"
 ---
 
-### Papers
+## Papers
 1. Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, ***in preparation***.
 
 2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, ***under review at Operations Research***.
@@ -18,7 +18,7 @@ excerpt: "Research"
    -    RMP Conference Spoltlight, 2022
 
 
-### Conference Talks
+## Conference Talks
 - **Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments**
    -    2022 Conference on Artificial Intelligence, Machine Learning, and Business Analytics, HBS. Dec. 2022
    -    INFORMS ISMS Conference, Online. Jun. 2022
