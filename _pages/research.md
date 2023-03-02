@@ -6,9 +6,9 @@ author_profile: true
 ---
 
 # Papers
-1. Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, ***in preparation***.
+1. [Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327), with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, submitted.
 
-2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, ***under review at Operations Research***.
+2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, major revision in ***Operations Research***.
    -    MSOM SIG Conference in SCM, 2022
    -    RMP Conference Spoltlight, 2022
 
