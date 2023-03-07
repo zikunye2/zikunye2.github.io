@@ -10,12 +10,12 @@ author_profile: true
 
 2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, major revision in ***Operations Research***.
    -    MSOM SIG Conference in SCM, 2022
-   -    RMP Conference Spoltlight, 2022
+   -    RMP Conference Spotlight, 2022
 
 3. [Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.4550), with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen, ***Management Science*** (2022).
    -    Finalist, INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize, 2020
    -    MSOM SIG Conference in Service Management, 2022
-   -    RMP Conference Spoltlight, 2022
+   -    RMP Conference Spotlight, 2022
 
 
 # Conference Talks
