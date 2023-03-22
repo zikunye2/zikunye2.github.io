@@ -4,7 +4,7 @@ title: "About"
 author_profile: true
 ---
 
-Hi! I'm Zikun Ye. I am currently a PhD candidate in [Operations Research](https://ise.illinois.edu) at [University of Illinois Urbana Champaign](https://illinois.edu), advised by [Prof. Xin Chen](https://www.isye.gatech.edu/users/xin-chen) and [Prof. Dennis Zhang](http://denniszhang.org). I earned my Bachelor's in Mathematics and Engineering from Shanghai Jiao Tong University in 2018. I will be joining Foster School of Business, University of Washington as an Assistant Professor of Marketing and International Business starting Fall 2023.
+Hi! I'm Zikun Ye. I am currently a PhD candidate in [Operations Research](https://ise.illinois.edu) at [University of Illinois Urbana Champaign](https://illinois.edu), advised by [Prof. Xin Chen](https://www.isye.gatech.edu/users/xin-chen) and [Prof. Dennis Zhang](http://denniszhang.org). I earned my Bachelor's in Mathematics and Engineering from Shanghai Jiao Tong University in 2018. I will be joining Foster School of Business, University of Washington as an Assistant Professor of [Marketing and International Business](https://foster.uw.edu/faculty-research/academic-departments/dept-marketing-and-international-business/) starting Fall 2023.
 
 
 ## Research Interests
