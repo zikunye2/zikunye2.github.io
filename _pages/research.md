@@ -6,7 +6,8 @@ author_profile: true
 ---
 
 # Papers
-1. [Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327), with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, submitted.
+1. (Job market paper) [Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327), with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, under review in ***Management Science***.
+   -    Accepted by ACM Conference on Economics and Computation (EC) 2023.
 
 2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, major revision in ***Operations Research***.
    -    MSOM SIG Conference in SCM, 2022
