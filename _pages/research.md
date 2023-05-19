@@ -6,8 +6,8 @@ author_profile: true
 ---
 
 # Papers
-1. (Job market paper) [Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327), with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, under review in ***Management Science***.
-   -    Accepted by ACM Conference on Economics and Computation (EC) 2023.
+1. [Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327), with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, under review in ***Management Science***.
+   -    Accepted by *ACM Conference on Economics and Computation (EC) 2023*.
 
 2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, major revision in ***Operations Research***.
    -    MSOM SIG Conference in SCM, 2022
@@ -21,7 +21,11 @@ author_profile: true
 
 # Conference Talks
 - Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments
-   -    2022 Conference on Artificial Intelligence, Machine Learning, and Business Analytics, HBS. Dec. 2022
+   -    ACM EC, London. July 2023
+   -    INFORMS RMP, London, UK. July 2023
+   -    MSOM Conference, Montreal, CA. Jun. 2023
+   -    POMS Annual Conference, Orlando, FL. May. 2023
+   -    2022 Conference on Artificial Intelligence, Machine Learning, and Business Analytics, Harvard Business School. Dec. 2022
    -    INFORMS ISMS Conference, Online. Jun. 2022
 
 
@@ -42,7 +46,7 @@ author_profile: true
 
 
 # Academic Services
-- Reviewer for Manufacturing and Service Operations Management
+- Reviewer for MSOM, POMS, MS
 - Session chair, INFORMS Annual Meeting, 2022
 
 
