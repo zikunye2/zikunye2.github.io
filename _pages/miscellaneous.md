@@ -2,7 +2,7 @@
 layout: archive
 title: " "
 permalink: /miscellaneous/
-author_profile: false
+author_profile: true
 ---
 
 # Awards
