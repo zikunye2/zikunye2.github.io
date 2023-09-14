@@ -15,9 +15,12 @@ main:
     
 - title: "Teaching"
   url: /teaching/
+
+- title: "CV"
+  url: /CV/files/CV_zikunye.pdf
     
-- title: "Miscellaneous"
-  url: /miscellaneous/
+#- title: "Miscellaneous"
+#  url: /miscellaneous/
 
 #  - title: "Industry"
 #    url: /industry/
