@@ -86,10 +86,10 @@ google_analytics: UA-107258021-1
 # Site Author
 author:
   name             : "     Zikun Ye"
-  bio              : "Assistant Professor of Marketing"
+  bio              : "Assistant Professor of Marketing\\ Email: zikunye@uw.edu"
   location         : "Paccar Hall 431"
   avatar           : "profile.png"
-  email            : zikunye@uw.edu
+  email            : "zikunye@uw.edu"
   googlescholar    : #"https://scholar.google.com/citations?user=lQ2Pd10AAAAJ&hl=en&oi=ao"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
