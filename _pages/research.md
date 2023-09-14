@@ -48,7 +48,7 @@ author_profile: true
 
 
 # Academic Services
-- Reviewer for MSOM, POMS, MS
+- Reviewer for *Management Science*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
 - Session chair, INFORMS Annual Meeting, 2022
 
 
