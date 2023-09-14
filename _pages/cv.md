@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /file-CV_zikunye.pdf/
+permalink: /files/CV_zikunye.pdf
 author_profile: true
 redirect_from:
   - /resume
