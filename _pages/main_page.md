@@ -1,5 +1,5 @@
 ---
-permalink: /main
+permalink: /main-not-in-use
 title: "About"
 author_profile: true
 ---
