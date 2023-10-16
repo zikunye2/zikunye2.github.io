@@ -8,7 +8,7 @@ author_profile: true
 # Papers
 1. [Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327), with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, under review in ***Management Science***.
    -    Accepted at *ACM Conference on Economics and Computation [EC'23](https://dl.acm.org/doi/10.1145/3580507.3597718)*.
-   -    Finalist, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
+   -    First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
    -    Second Prize, CSAMSE Best Paper Award, 2023
 
 2. [Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814) with Xin Chen, Niao He, Yifan Hu, major revision in ***Operations Research***.
