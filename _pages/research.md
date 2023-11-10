@@ -15,14 +15,14 @@ author_profile: true
    -    MSOM SIG Conference in SCM, 2022
    -    RMP Conference Spotlight, 2022
      
-3. Seller-side Outcome Fairness in Online Marketplaces, with Walmart Global Tech, Algorithm Fairness Workshop in *NeurIPS 2023*
-
-4. [Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327), with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, under review in *Management Science*.
+3. [Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327), with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, under review in *Management Science*.
    -    Accepted at *ACM Conference on Economics and Computation [EC'23](https://dl.acm.org/doi/10.1145/3580507.3597718)*.
    -    First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
    -    Second Prize, CSAMSE Best Paper Award, 2023
 
-5. Measuring the Scale of Interference Induced by Model Training Contamination in Field Experiments, *working in progress*
+4. Seller-side Outcome Fairness in Online Marketplaces, with Walmart Global Tech, Algorithm Fairness Workshop at NeurIPS 2023
+
+5. Interference Induced by Embedding Contamination in Field Experiments, *working in progress*
 
 # Conference Talks
 - Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments
