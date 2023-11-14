@@ -20,9 +20,7 @@ author_profile: true
    -    First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
    -    Second Prize, CSAMSE Best Paper Award, 2023
 
-4. Seller-side Outcome Fairness in Online Marketplaces, with Walmart Global Tech, Algorithm Fairness Workshop at NeurIPS 2023
-
-5. Interference Induced by Embedding Contamination in Field Experiments, *working in progress*
+4. Interference Induced by Embedding Contamination in Field Experiments, *working in progress*
 
 # Conference Talks
 - Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments
@@ -48,6 +46,9 @@ author_profile: true
    -    POMS Annual Conference, Online. May. 2022
    -    Cornell ORIE Young Researcher Workshop, Ithaca, NY. Oct. 2021
    -    INFORMS Annual Meeting, Online. Oct. 2021
+
+# Technique Report
+- Seller-side Outcome Fairness in Online Marketplaces, with Walmart Global Tech, Algorithm Fairness Workshop at NeurIPS 2023
 
 
 # Academic Services
