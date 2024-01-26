@@ -51,7 +51,7 @@ author_profile: true
 -->
 
 # Academic Services
-- Reviewer for *Management Science*, *Operations Research*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
+- Reviewer for *Management Science*, *Marketing Science*, *Operations Research*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
 - Session chair, INFORMS Annual Meeting
 
 
