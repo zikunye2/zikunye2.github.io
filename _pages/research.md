@@ -9,7 +9,7 @@ author_profile: true
 - **Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments**, with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen, *Management Science* (2023). [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.4550)
    -    Finalist, INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize, 2020
      
-- **Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management** , with Xin Chen, Niao He, Yifan Hu (Authors listed Alphabetically), major revision in *Operations Research*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814)
+- **Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions and Its Applications in Network Revenue Management** , with Xin Chen, Niao He, Yifan Hu (Authors listed Alphabetically), minor revision in *Operations Research*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814)
      
 - **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, under review in *Management Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327)
    -    Accepted to *ACM Conference on Economics and Computation [EC'23](https://dl.acm.org/doi/10.1145/3580507.3597718)*.
