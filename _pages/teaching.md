@@ -5,8 +5,13 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Teaching Experiences
-- Instructor, [IE 310 Deterministic Models in Optimization](https://zikunye2.github.io/teaching/ie310-fa-22) (Undergrad), Fall 2022
+## Foster School of Business, UW
+- MKTG 464 Analytics for Marketing Decisions (undergrad), Spring 2024
+- MKTG 564 Analytics for Marketing Decisions (MBA), Spring 2024
+- BUS AN 599 Business Analytics Practicum, Spring 2024
+
+## UIUC
+- Instructor, [IE 310 Deterministic Models in Optimization](https://zikunye2.github.io/teaching/ie310-fa-22) (undergrad), Fall 2022
   - **Teachers Ranked as Excellent by Students**
   - Overall Teaching Effectiveness 4.64/5 (Campus 90% Rank, Class size 96)
 
