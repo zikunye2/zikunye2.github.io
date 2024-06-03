@@ -20,7 +20,7 @@ author_profile: true
    
 - **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, *In preparation*
 
-- **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, *Working in progress*
+- **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, *In preparation* [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
 
 - **Traffic Allocation for Sequential Experiments with Increasing Heterogeneity**, *Working in progress*
 
