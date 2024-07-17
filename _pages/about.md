@@ -6,9 +6,9 @@ author_profile: true
 
 Hi, I'm Zikun Ye. I am an Assistant Professor of Marketing at the Michael G. Foster School of Business, University of Washington.
 
-My research focuses on fundamental questions under the emerging trends in technology, marketplaces, and society. I am particularly enthusiastic about developing data-driven causal inference, field experiments, machine learning, and optimization methodologies to evaluate and optimize the strategies in the contexts of digital platforms and marketplaces, especially their recommendation and advertising.
+My research focuses on fundamental questions under the emerging trends in technology, marketplaces, and society. I am particularly enthusiastic about developing data-driven causal inference, field experiments, machine learning, and optimization methodologies to evaluate and optimize the strategies in the contexts of digital platforms and marketplaces.
 
-Before joining the Foster School of Business, I received my Ph.D. in Operations Research at the University of Illinois Urbana-Champaign, advised by Prof. [Xin Chen](https://www.isye.gatech.edu/users/xin-chen) and Prof. [Dennis Zhang](http://denniszhang.org). I earned my Bachelor's in Mathematics and Engineering with Zhiyuan honors from Shanghai Jiao Tong University in 2018. 
+Before joining the Foster School of Business, I received my Ph.D. in Operations Research at the University of Illinois Urbana-Champaign, advised by Prof. Xin Chen and Prof. Dennis Zhang. I earned my Bachelor's in Mathematics and Engineering with Zhiyuan honors from Shanghai Jiao Tong University in 2018. 
 
 I am looking for motivated students with either a strong mathematics/engineering background or research experience in the business area. If you plan to pursue a PhD starting in Fall 2025, and are interested in working with me, please contact me and apply to the Marketing Department at Foster.
 
