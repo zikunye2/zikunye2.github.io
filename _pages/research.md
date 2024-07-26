@@ -17,7 +17,7 @@ author_profile: true
    -    First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
    -    Second Prize, CSAMSE Best Paper Award, 2023
    
-- **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, *In preparation*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
+- **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, under review in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
   
 - **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, *In preparation*.
 
