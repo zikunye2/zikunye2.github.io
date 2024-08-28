@@ -8,20 +8,27 @@ author_profile: true
 # Papers
 - **Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments**, with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen, *Management Science* (2023). [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.4550)
    -    Finalist, INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize, 2020
-     
+   -    MSOM SIG in Service Management, 2022
+   -    INFORMS RMP Spotlight, 2022
+
 - **Efficient Algorithms for A Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management** , with Xin Chen, Niao He, Yifan Hu (Alphabetical). Forthcoming in *Operations Research*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4099814)
-     
-- **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327)
-   -    Major revision in *Management Science*
+   -    MSOM SIG in Supply Chain Management, 2022
+   -    INFORMS RMP Spotlight, 2022
+
+- **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. Major revision in *Management Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327)
    -    In Proceedings of *ACM Conference on Economics and Computation (EC'23)*
    -    First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
    -    Second Prize, CSAMSE Best Paper Award, 2023
    
 - **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, under review in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
-  
+   -    Quantitative Marketing and Economics (QME) conference, 2024
+
 - **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, *In preparation*.
 
 - **Traffic Allocation for Sequential Experiments with Increasing Heterogeneity**, *Working in progress*.
+  
+- **The Efficient Data Valuation for Large Language Models**, *Working in progress*.
+
 
 # Conference
 - **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, *ACM Conference on Economics and Computation (EC'23)* [[Paper]](https://dl.acm.org/doi/10.1145/3580507.3597718)
