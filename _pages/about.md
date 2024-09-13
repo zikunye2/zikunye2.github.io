@@ -10,7 +10,7 @@ My research focuses on developing and leveraging data-driven optimization algori
 
 Before joining the Foster School of Business, I earned my Ph.D. in Operations Research at the University of Illinois Urbana-Champaign in 2023 and my Bachelor's in Mathematics and Engineering with Zhiyuan honors from Shanghai Jiao Tong University in 2018. 
 
-I am looking for motivated students with either a strong mathematics/engineering background or research experience in the business area. If you plan to pursue a PhD starting in Fall 2025, and are interested in working with me, please contact me and apply to the Marketing Department at Foster.
+**I am looking for motivated students with either a strong mathematics/engineering background or research experience in the business area.** If you plan to pursue a PhD starting in Fall 2025, and are interested in working with me, please contact me and apply to the Marketing Department at Foster.
 
 <!---My primary research focuses on data-driven optimization and causal inference with applications in platform operations and revenue management. The goal is to provide actionable policies and operations for online platforms. I’ve had the pleasure of working with platform companies including Kwai, Walmart Global Tech, LIVAD Technology, and DiDi.
 
