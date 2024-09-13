@@ -11,7 +11,7 @@ author_profile: true
    -    MSOM SIG in Service Management, 2022
    -    INFORMS RMP Spotlight, 2022
 
-- **Efficient Algorithms for A Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management** , with Xin Chen, Niao He, Yifan Hu (Alphabetical). Forthcoming in *Operations Research*. [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/opre.2022.0216)
+- **Efficient Algorithms for A Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management** , with Xin Chen, Niao He, Yifan Hu (Alphabetical). *Operations Research*. (2024) [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/opre.2022.0216)
    -    MSOM SIG in Supply Chain Management, 2022
    -    INFORMS RMP Spotlight, 2022
 
