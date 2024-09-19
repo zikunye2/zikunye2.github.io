@@ -23,7 +23,7 @@ author_profile: true
 - **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, Major revision in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
    -    Quantitative Marketing and Economics (QME) Conference, 2024
 
-- **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, under review in *Manufacturing & Service Operations Management*.
+- **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, under review in *Manufacturing & Service Operations Management*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
 
 - **Traffic Allocation for Sequential Experiments with Increasing Heterogeneity**, *In preparation*.
   
