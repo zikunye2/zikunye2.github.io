@@ -27,7 +27,7 @@ author_profile: true
 
 - **Traffic Allocation for Sequential Experiments with Increasing Heterogeneity**, *In preparation*.
   
-- **The Efficient Data Valuation for Large Language Models**, *In preparatio*.
+- **The Efficient Data Valuation for Large Language Models**, *In preparation*.
 
 
 # Conference
