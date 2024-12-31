@@ -23,11 +23,12 @@ author_profile: true
 - **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, Major revision in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
    -    Quantitative Marketing and Economics (QME) Conference, 2024
 
-- **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, under review in *Manufacturing & Service Operations Management*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
-
-- **Traffic Allocation for Sequential Experiments with Increasing Heterogeneity**, *In preparation*.
+- **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, Major revision in *Manufacturing & Service Operations Management*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
   
-- **The Efficient Data Valuation for Large Language Models**, *In preparation*.
+- **Value Attribution in LLM Summaries: A Cluster Shapley Approach**, *In preparation*.
+
+- **Traffic Allocation for Sequential Experiments with Increasing Heterogeneity**, *Working paper*.
+
 
 
 # Conference
@@ -37,6 +38,12 @@ author_profile: true
 
   
 <!--# Conference Talks
+- LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments
+   -   ISMS 2024
+   -   QME 2024
+   -   WUSTL Olin 2024
+   -   UW-UBC 2024
+   -   MarkTech 2024
 - Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments
    -    ACM EC, London. July 2023
    -    INFORMS RMP, London, UK. July 2023
