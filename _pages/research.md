@@ -11,21 +11,21 @@ author_profile: true
    -    MSOM SIG in Service Management, 2022
    -    INFORMS RMP Spotlight, 2022
 
-- **Efficient Algorithms for A Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management** , with Xin Chen, Niao He, Yifan Hu (Alphabetical). *Operations Research*. (2024) [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/opre.2022.0216)
+- **Efficient Algorithms for A Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management**, with Xin Chen, Niao He, Yifan Hu (Alphabetical). *Operations Research*. (2024) [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/opre.2022.0216)
    -    MSOM SIG in Supply Chain Management, 2022
    -    INFORMS RMP Spotlight, 2022
+ 
+- **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, Conditional accept in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
+   -    Quantitative Marketing and Economics (QME) Conference, 2024
 
 - **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. Major revision in *Management Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327)
    -    In Proceedings of *ACM Conference on Economics and Computation (EC'23)*
    -    First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
    -    Second Prize, CSAMSE Best Paper Award, 2023
-   
-- **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, Major revision in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
-   -    Quantitative Marketing and Economics (QME) Conference, 2024
 
 - **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, Major revision in *Manufacturing & Service Operations Management*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
   
-- **Value Attribution in LLM Summaries: A Cluster Shapley Approach**, *In preparation*.
+- **Value Attribution in LLM Summaries: A Cluster Shapley Approach**, with Hema Yoganarasimhan, *In preparation*.
 
 - **Traffic Allocation for Sequential Experiments with Increasing Heterogeneity**, *Working paper*.
 
