@@ -15,7 +15,7 @@ author_profile: true
    -    MSOM SIG in Supply Chain Management, 2022
    -    INFORMS RMP Spotlight, 2022
  
-- **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, Conditional accept in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
+- **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, Forthcoming in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
    -    Quantitative Marketing and Economics (QME) Conference, 2024
 
 - **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. Major revision in *Management Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327)
@@ -26,9 +26,6 @@ author_profile: true
 - **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, Major revision in *Manufacturing & Service Operations Management*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
   
 - **Value Attribution in LLM Summaries: A Cluster Shapley Approach**, with Hema Yoganarasimhan, *In preparation*.
-
-- **Traffic Allocation for Sequential Experiments with Increasing Heterogeneity**, *Working paper*.
-
 
 
 # Conference
