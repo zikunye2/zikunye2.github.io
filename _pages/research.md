@@ -25,7 +25,7 @@ author_profile: true
 
 - **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, Major revision in *Manufacturing & Service Operations Management*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
   
-- **Value Attribution in LLM Summaries: A Cluster Shapley Approach**, with Hema Yoganarasimhan, *In preparation*.
+- **Value Attribution in LLM Summaries: A Cluster Shapley Approach**, with Hema Yoganarasimhan, *In preparation*. [[Paper]](https://zikunye.com/files/Shapley_LLM.pdf)
 
 
 # Conference
