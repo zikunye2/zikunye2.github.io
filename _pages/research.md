@@ -15,20 +15,23 @@ author_profile: true
    -    MSOM SIG in Supply Chain Management, 2022
    -    INFORMS RMP Spotlight, 2022
  
-- **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, Forthcoming in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
-   -    Quantitative Marketing and Economics (QME) Conference, 2024
-
-- **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. Major revision in *Management Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327)
+- **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. Forthcoming in *Management Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327)
    -    In Proceedings of *ACM Conference on Economics and Computation (EC'23)*
    -    First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
    -    Second Prize, CSAMSE Best Paper Award, 2023
+ 
+- **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**, with Hema Yoganarasimhan and Yufeng Zheng, Forthcoming in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4851778)
+   -    Quantitative Marketing and Economics (QME) Conference, 2024
+
+
+# Working Papers
 
 - **Joint Assortment Optimization and Marketing Mix Allocation**, with Shuai Li, Weijun Xie, and Xin Chen, Major revision in *Manufacturing & Service Operations Management*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
   
 - **Document Valuation in LLM Summaries: A Cluster Shapley Approach**, with Hema Yoganarasimhan, *In preparation*. [[Paper]](https://zikunye.com/files/Shapley_LLM.pdf)
 
 
-# Conference
+# Conference Papers
 - **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, *ACM Conference on Economics and Computation (EC'23)* [[Paper]](https://dl.acm.org/doi/10.1145/3580507.3597718)
 
 - **Seller-side Outcome Fairness in Online Marketplaces**, with Walmart Global Tech, Accepted to *NeurIPS* 2023: Algorithm Fairness Workshop. [[Paper]](https://arxiv.org/abs/2312.03253)
