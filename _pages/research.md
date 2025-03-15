@@ -6,12 +6,12 @@ author_profile: true
 ---
 
 # Papers
-- **Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments**, with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen, *Management Science* (2023). [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2022.4550)
+- **Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments**, with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen, *Management Science* (2023). [[Paper]](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4550)
    -    Finalist, INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize, 2020
    -    MSOM SIG in Service Management, 2022
    -    INFORMS RMP Spotlight, 2022
 
-- **Efficient Algorithms for A Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management**, with Xin Chen, Niao He, Yifan Hu (Alphabetical). *Operations Research*. (2024) [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/opre.2022.0216)
+- **Efficient Algorithms for A Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management**, with Xin Chen, Niao He, Yifan Hu (Alphabetical). *Operations Research*. (2024) [[Paper]](https://pubsonline.informs.org/doi/10.1287/opre.2022.0216)
    -    MSOM SIG in Supply Chain Management, 2022
    -    INFORMS RMP Spotlight, 2022
  
