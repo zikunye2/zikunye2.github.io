@@ -6,9 +6,10 @@ author_profile: true
 ---
 
 ## Foster School of Business, UW
-- MKTG 464 Analytics for Marketing Decisions (undergrad), Spring 2024
-- MKTG 564 Analytics for Marketing Decisions (MBA), Spring 2024
-- BUS AN 599 Business Analytics Practicum, Spring 2024
+- MKTG 579 Business Applications of LLMs and Generative Models (MBA), Spring 2025
+- MKTG 564 Analytics for Marketing Decisions (MBA), Spring 2024, 2025
+- MKTG 464 Analytics for Marketing Decisions (Undergrad), Spring 2024, 2025
+- BUS AN 599 Business Analytics Practicum, Spring 2024, 2025
 
 ## UIUC
 - Instructor, [IE 310 Deterministic Models in Optimization](https://zikunye2.github.io/teaching/ie310-fa-22) (undergrad), Fall 2022
