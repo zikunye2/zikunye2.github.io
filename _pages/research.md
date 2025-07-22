@@ -67,7 +67,7 @@ author_profile: true
 -->
 
 # Academic Services
-- Reviewer for *Management Science*, *Marketing Science*, *Operations Research*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
+- Reviewer for *Management Science*, *Marketing Science*, *Operations Research*, *Journal of Marketing Research*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
 - Program chair for *ACM Conference on Economics and Computation (EC)*
 - Session chair, INFORMS Annual Meeting
 
