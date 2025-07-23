@@ -24,7 +24,7 @@ author_profile: true
    -    INFORMS RMP Spotlight, 2022
 
 # Working Papers
-- Document Valuation in LLM Summaries: A Cluster Shapley Approach, with Hema Yoganarasimhan, Under review in *Marketing Science*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
+- Document Valuation in LLM Summaries: A Cluster Shapley Approach, with Hema Yoganarasimhan. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
 
 - Joint Assortment Optimization and Marketing Mix Allocation, with Shuai Li, Weijun Xie, and Xin Chen, Major revision in *Manufacturing & Service Operations Management*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
   
