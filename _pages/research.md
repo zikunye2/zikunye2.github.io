@@ -24,9 +24,9 @@ author_profile: true
    -    INFORMS RMP Spotlight, 2022
 
 # Working Papers
-- Document Valuation in LLM Summaries: A Cluster Shapley Approach, with Hema Yoganarasimhan. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
+- Joint Assortment Optimization and Marketing Mix Allocation, with Shuai Li, Weijun Xie, and Xin Chen, Minor revision in ***M&SOM***. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
 
-- Joint Assortment Optimization and Marketing Mix Allocation, with Shuai Li, Weijun Xie, and Xin Chen, Major revision in *Manufacturing & Service Operations Management*. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
+- Document Valuation in LLM Summaries: A Cluster Shapley Approach, with Hema Yoganarasimhan. Under review. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
   
 # Conference Papers
 - Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, ***EC'23*** [[Paper]](https://dl.acm.org/doi/10.1145/3580507.3597718)
@@ -68,7 +68,7 @@ author_profile: true
 
 # Academic Services
 - Reviewer for *Management Science*, *Marketing Science*, *Operations Research*, *Journal of Marketing Research*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
-- Program chair for *ACM Conference on Economics and Computation (EC)*
-- Session chair, INFORMS Annual Meeting
+- Program chair/committee for *ACM EC*, *WoPA*, *NeurIPS*, *AAAI*, *KDD*
+- Session chair, INFORMS Annual Meeting, ISMS Marketing Science Conference
 
 
