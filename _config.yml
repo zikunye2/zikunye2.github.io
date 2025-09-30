@@ -7,12 +7,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zikun Ye | Generative AI & Data Science Researcher"
+title                    : "Zikun Ye"
 title_separator          : "-"
 name                     : &name "Zikun Ye"
 logo                     : "W-Logo_Purple_RGB.png"
 masthead_title           : "Zikun Ye"
-description              : &description "Zikun Ye | Machine Learning Scientist | Assistant Professor of Marketing at UW"
+description              : &description "Zikun Ye | Generative AI & Data Science Researcher | Assistant Professor of Marketing"
 url                      : https://zikunye.com # https://zikunye2.github.io the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zikunye2/zikunye2.github.io"
