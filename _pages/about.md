@@ -4,7 +4,7 @@ title: " "
 author_profile: true
 ---
 
-#### Hi, I'm Zikun Ye, an Assistant Professor of Marketing at the Foster School of Business, University of Washington.
+### Hi, I'm Zikun Ye, an Assistant Professor of Marketing at the Foster School of Business, University of Washington.
 
 My research focuses on developing and leveraging data-driven tools, including generative AI, causal machine learning, and field experiments to evaluate and optimize strategies in digital platforms and marketplaces.
 
