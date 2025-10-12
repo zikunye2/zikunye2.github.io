@@ -67,7 +67,7 @@ author_profile: true
 -->
 
 # Academic Services
-- Reviewer for *Management Science*, *Marketing Science*, *Operations Research*, *Journal of Marketing Research*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
+- Reviewer for *Management Science*, *Marketing Science*, *Journal of Marketing Research*, *Operations Research*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
 - Program chair/committee for *ACM EC*, *WoPA*, *NeurIPS*, *AAAI*, *KDD*
 - Session chair, INFORMS Annual Meeting, ISMS Marketing Science Conference
 
