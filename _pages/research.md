@@ -24,7 +24,7 @@ author_profile: true
    -    INFORMS RMP Spotlight, 2022
 
 # Working Papers
-- Joint Assortment Optimization and Marketing Mix Allocation, with Shuai Li, Weijun Xie, and Xin Chen, Minor revision in ***M&SOM***. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
+- Joint Assortment Optimization and Marketing Mix Allocation, with Shuai Li, Weijun Xie, and Xin Chen, Minor revision in ***Manufacturing & Service Operations Management***. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
 
 - Document Valuation in LLM Summaries: A Cluster Shapley Approach, with Hema Yoganarasimhan. Under review. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
   
