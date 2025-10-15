@@ -9,7 +9,7 @@ author_profile: true
 - LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments, with Hema Yoganarasimhan and Yufeng Zheng, ***Marketing Science***. (2025) [[Paper]](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990) [[Code]](https://github.com/DDDOH/LLM_News)
    -    Quantitative Marketing and Economics (QME) Conference, 2024
  
-- Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. Forthcoming in ***Management Science***. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4375327) [[Code]](https://github.com/zikunye2/deep_learning_based_causal_inference_for_combinatorial_experiments)
+- Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. Forthcoming in ***Management Science***. [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2024.04625) [[Code]](https://github.com/zikunye2/deep_learning_based_causal_inference_for_combinatorial_experiments)
    -    In Proceedings of *ACM Conference on Economics and Computation (EC'23)*
    -    First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
    -    Second Prize, CSAMSE Best Paper Award, 2023
