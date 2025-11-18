@@ -26,7 +26,10 @@ author_profile: true
 # Working Papers
 - Joint Assortment Optimization and Marketing Mix Allocation, with Shuai Li, Weijun Xie, and Xin Chen, Minor revision in ***Manufacturing & Service Operations Management***. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
 
-- Fair Document Valuation in LLM Summaries via Shapley Values, with Hema Yoganarasimhan. Under review. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
+- Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification, with Lei Wang and Jinglong Zhao. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184)
+  
+- Fair Document Valuation in LLM Summaries via Shapley Values, with Hema Yoganarasimhan. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
+
   
 # Conference Papers
 - Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, ***EC'23*** [[Paper]](https://dl.acm.org/doi/10.1145/3580507.3597718)
