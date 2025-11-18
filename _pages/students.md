@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Students
-- Lei Wang, PhD student, Marketing, University of Washington
+- [Lei Wang](https://wanglei123sjtu.github.io/), PhD student, Marketing, University of Washington
 - Yizhuo Chang, PhD student, Marketing, University of Washington
 
 
