@@ -9,18 +9,18 @@ main:
 #- title: "Awards"
 #  url: /#Awards
   
-  
 - title: "Research"
   url: /research/
     
 - title: "Teaching"
   url: /teaching/
 
+- title: "Students"
+  url: /students/
+
 - title: "CV"
   url: /files/CV_zikunye.pdf
     
-- title: "Students"
-  url: /students/
 
 #  - title: "Industry"
 #    url: /industry/
