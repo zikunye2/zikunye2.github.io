@@ -39,7 +39,7 @@ Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: 
 Seller-side Outcome Fairness in Online Marketplaces, with Walmart Global Tech, Accepted to ***NeurIPS Workshop 2023***. [[Paper]](https://arxiv.org/abs/2312.03253)
 <br>
   
- <!--Conference Talks
+ <!-- Conference Talks
 - LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments
    -   ISMS 2024
    -   QME 2024
