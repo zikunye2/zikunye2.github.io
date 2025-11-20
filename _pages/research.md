@@ -39,45 +39,6 @@ Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: 
 Seller-side Outcome Fairness in Online Marketplaces, with Walmart Global Tech, Accepted to ***NeurIPS Workshop 2023***. [[Paper]](https://arxiv.org/abs/2312.03253)
 <br>
 
- <!-- 
- # Awards
-- First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
-- Second Prize, CSAMSE Best Paper Award, 2023
-- Finalist, INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize, 2020 -->
-
-  
- <!-- # Conference Talks
-- LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments
-   -   ISMS 2024
-   -   QME 2024
-   -   WUSTL Olin 2024
-   -   UW-UBC 2024
-   -   MarkTech 2024
-- Deep Learning Based Causal Inference for Large-Scale Combinatorial Experiments
-   -    ACM EC, London. July 2023
-   -    INFORMS RMP, London, UK. July 2023
-   -    MSOM Conference, Montreal, CA. Jun. 2023
-   -    POMS Annual Conference, Orlando, FL. May. 2023
-   -    2022 Conference on Artificial Intelligence, Machine Learning, and Business Analytics, Harvard Business School. Dec. 2022
-   -    INFORMS ISMS Conference, Online. Jun. 2022
-
-
-- Efficient Algorithms for Minimizing Compositions of Convex Functions and Random Functions
-   -    INFORMS Annual Meeting, Indianapolis, IN. Oct. 2022 
-   -    MSOM SIG in SCM, Munich, Germany. Jun. 2022
-   -    INFORMS RMP Spotlight Session, Online. Jun. 2022
-   -    POMS Annual Conference, Online. May. 2022
-
-
-- Cold Start to Improve Market Thickness
-   -    MSOM SIG in Service Management, Munich, Germany. Jun. 2022
-   -    INFORMS RMP Spotlight Session, Online. Jun. 2022
-   -    MIW, Online. May. 2022
-   -    POMS Annual Conference, Online. May. 2022
-   -    Cornell ORIE Young Researcher Workshop, Ithaca, NY. Oct. 2021
-   -    INFORMS Annual Meeting, Online. Oct. 2021 -->
-
-
 ## Academic Services
 - Reviewer for *Management Science*, *Marketing Science*, *Journal of Marketing Research*, *Operations Research*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
 - Program chair/committee for *ACM EC*, *WoPA*, *NeurIPS*, *AAAI*, *KDD*
