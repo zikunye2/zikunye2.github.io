@@ -5,39 +5,46 @@ permalink: /research/
 author_profile: true
 ---
 
-# Papers
-- LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments, with Hema Yoganarasimhan and Yufeng Zheng, ***Marketing Science***. (2025) [[Paper]](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990) [[Code]](https://github.com/DDDOH/LLM_News)
-   -    Quantitative Marketing and Economics (QME) Conference, 2024
- 
-- Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. Forthcoming in ***Management Science***. [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2024.04625) [[Code]](https://github.com/zikunye2/deep_learning_based_causal_inference_for_combinatorial_experiments)
-   -    In Proceedings of *ACM Conference on Economics and Computation (EC'23)*
+## Papers
+LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments, with Hema Yoganarasimhan and Yufeng Zheng, ***Marketing Science*** (2025) [[Paper]](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990) [[Code]](https://github.com/DDDOH/LLM_News)
+ <!--  -    Quantitative Marketing and Economics (QME) Conference, 2024 -->
+<br>
+
+Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, ***Management Science*** (2025). [[Paper]](https://pubsonline.informs.org/doi/full/10.1287/mnsc.2024.04625) [[Code]](https://github.com/zikunye2/deep_learning_based_causal_inference_for_combinatorial_experiments)
+ <!--  -    In Proceedings of *ACM Conference on Economics and Computation (EC'23)*
    -    First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
-   -    Second Prize, CSAMSE Best Paper Award, 2023
-   
-- Efficient Algorithms for A Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management, with Xin Chen, Niao He, Yifan Hu. ***Operations Research***. (2025) [[Paper]](https://pubsonline.informs.org/doi/10.1287/opre.2022.0216) [[Code]](https://pubsonline.informs.org/doi/suppl/10.1287/opre.2022.0216)
-   -    MSOM SIG in Supply Chain Management, 2022
-   -    INFORMS RMP Spotlight, 2022
+   -    Second Prize, CSAMSE Best Paper Award, 2023 -->
+<br>  
 
-- Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments, with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen, ***Management Science*** (2023). [[Paper]](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4550) [[Code]](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation)
-   -    Finalist, INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize, 2020
+Efficient Algorithms for A Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management, with Xin Chen, Niao He, Yifan Hu. ***Operations Research*** (2025) [[Paper]](https://pubsonline.informs.org/doi/10.1287/opre.2022.0216) [[Code]](https://pubsonline.informs.org/doi/suppl/10.1287/opre.2022.0216)
+<!--   -    MSOM SIG in Supply Chain Management, 2022
+   -    INFORMS RMP Spotlight, 2022 -->
+
+<br>
+
+Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments, with Dennis Zhang, Heng Zhang, Renyu Zhang, and Xin Chen, ***Management Science*** (2023). [[Paper]](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4550) [[Code]](https://github.com/zikunye2/cold_start_to_improve_market_thickness_simulation)
+<!--   -    Finalist, INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize, 2020
    -    MSOM SIG in Service Management, 2022
-   -    INFORMS RMP Spotlight, 2022
+   -    INFORMS RMP Spotlight, 2022 -->
+<br>
 
-# Working Papers
-- Joint Assortment Optimization and Marketing Mix Allocation, with Shuai Li, Weijun Xie, and Xin Chen, Minor revision in ***Manufacturing & Service Operations Management***. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
+## Working Papers
+Joint Assortment Optimization and Marketing Mix Allocation, with Shuai Li, Weijun Xie, and Xin Chen, minor revision in ***Manufacturing & Service Operations Management***. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
+<br>
 
-- Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification, with Lei Wang and Jinglong Zhao. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184)
+Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification, with Lei Wang and Jinglong Zhao. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184)
+<br>
+
+Fair Document Valuation in LLM Summaries via Shapley Values, with Hema Yoganarasimhan. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
+
   
-- Fair Document Valuation in LLM Summaries via Shapley Values, with Hema Yoganarasimhan. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
-
-  
-# Conference Papers
+<!--# Conference Papers
 - Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, ***EC'23*** [[Paper]](https://dl.acm.org/doi/10.1145/3580507.3597718)
 
 - Seller-side Outcome Fairness in Online Marketplaces, with Walmart Global Tech, Accepted to ***NeurIPS*** 2023: Algorithm Fairness Workshop. [[Paper]](https://arxiv.org/abs/2312.03253)
 
   
-<!--# Conference Talks
+ Conference Talks
 - LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments
    -   ISMS 2024
    -   QME 2024
@@ -69,7 +76,9 @@ author_profile: true
    -    INFORMS Annual Meeting, Online. Oct. 2021
 -->
 
-# Academic Services
+<br>
+
+## Academic Services
 - Reviewer for *Management Science*, *Marketing Science*, *Journal of Marketing Research*, *Operations Research*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
 - Program chair/committee for *ACM EC*, *WoPA*, *NeurIPS*, *AAAI*, *KDD*
 - Session chair, INFORMS Annual Meeting, ISMS Marketing Science Conference
