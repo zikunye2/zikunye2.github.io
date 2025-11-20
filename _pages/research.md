@@ -32,14 +32,21 @@ Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tu
 Fair Document Valuation in LLM Summaries via Shapley Values, with Hema Yoganarasimhan. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
 <br>
   
-# Conference Papers
+## Conference Papers
 Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence, with Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang, ***EC'23***. [[Paper]](https://dl.acm.org/doi/10.1145/3580507.3597718)
 <br>
 
 Seller-side Outcome Fairness in Online Marketplaces, with Walmart Global Tech, Accepted to ***NeurIPS Workshop 2023***. [[Paper]](https://arxiv.org/abs/2312.03253)
 <br>
+
+ <!-- 
+ # Awards
+- First Prize, INFORMS Social Media Analytics Best Student Paper Award Competition, 2023
+- Second Prize, CSAMSE Best Paper Award, 2023
+- Finalist, INFORMS Revenue Management and Pricing Section Jeff McGill Student Paper Prize, 2020 -->
+
   
- <!-- Conference Talks
+ <!-- # Conference Talks
 - LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments
    -   ISMS 2024
    -   QME 2024
@@ -68,8 +75,7 @@ Seller-side Outcome Fairness in Online Marketplaces, with Walmart Global Tech, A
    -    MIW, Online. May. 2022
    -    POMS Annual Conference, Online. May. 2022
    -    Cornell ORIE Young Researcher Workshop, Ithaca, NY. Oct. 2021
-   -    INFORMS Annual Meeting, Online. Oct. 2021
--->
+   -    INFORMS Annual Meeting, Online. Oct. 2021 -->
 
 
 ## Academic Services
