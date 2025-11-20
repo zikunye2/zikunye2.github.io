@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-## Papers
+## Publication
 LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments, with Hema Yoganarasimhan and Yufeng Zheng, ***Marketing Science*** (2025) [[Paper]](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990) [[Code]](https://github.com/DDDOH/LLM_News)
  <!--  Quantitative Marketing and Economics (QME) Conference, 2024 -->
 <br>
