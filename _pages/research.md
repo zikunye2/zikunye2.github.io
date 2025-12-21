@@ -35,7 +35,7 @@ Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tu
 LLM-Powered Market Research: An Efficient Survey Design Framework, with Yizhuo Chang, and Hema Yoganarasimhan.
 <br>
 
-Data-Efficient Adaptive Survey Sampling using LLM Surrogates.
+Data-Efficient Adaptive Survey Sampling with LLM Surrogates.
 <br>
   
 ## Conference Papers
