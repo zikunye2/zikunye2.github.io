@@ -6,10 +6,17 @@ author_profile: true
 ---
 
 ## Foster School of Business, UW
-- MKTG 579 Business Applications of LLMs and Generative Models (MBA), Spring 2025
+
+### Generative AI and LLMs for Business
+- MKTG 565: Building Business Applications of LLMs and Generative Models (MBA), Spring 2026
+- MKTG 490: Building Business Applications of LLMs and Generative Models (Undergrad), Spring 2026
+- MKTG 579 Building Business Applications of LLMs and Generative Models (MBA), Spring 2025
+
+### Marketing Analytics
+- BUS AN 514 Analytics for Marketing Decisions (2 MSBA Sessions), Winter 2026
 - MKTG 564 Analytics for Marketing Decisions (MBA), Spring 2024, 2025
 - MKTG 464 Analytics for Marketing Decisions (Undergrad), Spring 2024, 2025
-- BUS AN 599 Business Analytics Practicum, Spring 2024, 2025
+- BUS AN 599 Business Analytics Practicum, Spring 2024, 2025, 2026
 
 ## UIUC
 - Instructor, [IE 310 Deterministic Models in Optimization](https://zikunye2.github.io/teaching/ie310-fa-22) (undergrad), Fall 2022
