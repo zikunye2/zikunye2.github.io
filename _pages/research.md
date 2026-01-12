@@ -32,7 +32,7 @@ Fair Document Valuation in LLM Summaries via Shapley Values, with Hema Yoganaras
 Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification, with Lei Wang and Jinglong Zhao. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184)
 <br>
 
-LLM-Powered Market Research: An Efficient Survey Design Framework, with Yizhuo Chang, and Hema Yoganarasimhan.
+LLM-Powered Market Research: An Efficient Survey Design Framework.
 <br>
 
 Data-Efficient Adaptive Survey Sampling with LLM Surrogates.
