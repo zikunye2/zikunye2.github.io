@@ -23,13 +23,13 @@ Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Dri
 <br>
 
 ## Working Papers
-Fair Document Valuation in LLM Summaries via Shapley Values, with Hema Yoganarasimhan, under review in ***Management Science***. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
-<br>
-
-Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification, with Lei Wang and Jinglong Zhao, under review in ***Management Science***. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184)
-<br>
-
 Joint Assortment Optimization and Marketing Mix Allocation, with Shuai Li, Weijun Xie and Xin Chen, minor revision in ***Manufacturing & Service Operations Management***. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901)
+<br>
+
+Fair Document Valuation in LLM Summaries via Shapley Values, with Hema Yoganarasimhan, under review. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5255982) [[Code]](https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries)
+<br>
+
+Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification, with Lei Wang and Jinglong Zhao, under review. [[Paper]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184)
 <br>
 
 LLM-Augmented Market Research: An Efficient Survey Design Framework, with Yizhuo Chang and Hema Yoganarasimhan.
