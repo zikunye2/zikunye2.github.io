@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Zikun
 middle_name:
 last_name: Ye
-contact_note: >
-  zikunye@uw.edu
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Zikun Ye | Assistant Professor of Marketing | Foster School of Business, University of Washington
 footer_text: >
