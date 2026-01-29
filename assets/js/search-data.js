@@ -38,13 +38,6 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%7A%69%6B%75%6E%79%65@%75%77.%65%64%75", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
