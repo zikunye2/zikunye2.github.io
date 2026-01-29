@@ -12,7 +12,7 @@ profile:
     <p>Paccar Hall 431</p>
     <p>Foster School of Business</p>
     <p>University of Washington</p>
-    <p>Contact: zikunye at uw dot edu</p>
+    <p><span class="hide-mobile">Contact: </span>zikunye at uw dot edu</p>
 
 selected_papers: false
 social: true
