@@ -23,7 +23,7 @@ display_title: false
 </li>
 
 <li>
-<b>Zikun Ye</b>, Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. <a href="https://pubsonline.informs.org/doi/full/10.1287/mnsc.2024.04625">Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence.</a> [<a href="https://github.com/zikunye2/deep_learning_based_causal_inference_for_combinatorial_experiments">Code</a>]
+<b>Zikun Ye</b>, Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. <a href="https://pubsonline.informs.org/doi/full/10.1287/mnsc.2024.04625">Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence.</a> [<a href="https://github.com/ZhiqiZhang1229/Deep-learning-based-causal-inference-for-large-scale-combinatorial-experiments-">Code</a>]
 <ul>
 <li><span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span>, 2025</li>
 <li>Accepted at ACM Conference on Economics and Computation (EC'23)</li>
