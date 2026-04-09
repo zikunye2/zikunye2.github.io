@@ -15,6 +15,13 @@ display_title: false
 <ul>
 
 <li>
+Shuai Li<span>&#42;</span>, <b>Zikun Ye</b>, Xin Chen, Weijun Xie. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901">Joint Assortment Optimization and Discrete Marketing Mix Allocation.</a>
+<ul>
+<li><span style="color: var(--global-theme-color); font-weight: 700;">Manufacturing &amp; Service Operations Management</span>, Forthcoming, 2026</li>
+</ul>
+</li>
+
+<li>
 <b>Zikun Ye</b>, Hema Yoganarasimhan, Yufeng Zheng. <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990">LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments.</a> [<a href="https://github.com/DDDOH/LLM_News">Code</a>]
 <ul>
 <li><span style="color: var(--global-theme-color); font-weight: 700;">Marketing Science</span>, 2025</li>
@@ -54,13 +61,6 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
 <ul>
 
 <li>
-Shuai Li<span>&#42;</span>, <b>Zikun Ye</b>, Xin Chen, Weijun Xie. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901">Joint Assortment Optimization and Discrete Marketing Mix Allocation.</a>
-<ul>
-<li>Minor revision in <span style="color: var(--global-theme-color); font-weight: 700;">Manufacturing &amp; Service Operations Management</span></li>
-</ul>
-</li>
-
-<li>
 <b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://arxiv.org/abs/2505.23842">Fair Document Valuation in LLM Summaries via Shapley Values.</a> [<a href="https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries">Code</a>]
 <ul>
 <li>Under review in <span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span></li>
@@ -82,7 +82,7 @@ Lei Wang<span>&#42;</span>, <b>Zikun Ye</b>, Jinglong Zhao<span>&#8224;</span>. 
 </li>
 
 <li>
-<b>Zikun Ye</b>, Jiameng Lyu, Rui Tao. Online Learning Frameworks for LLM-Augmented Survey Design.
+<b>Zikun Ye</b>, Jiameng Lyu, Rui Tao. Adaptive Budget Allocation for LLM-Augmented Survey Design.
 <ul>
 <li>In preparation</li>
 </ul>
