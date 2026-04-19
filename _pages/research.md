@@ -82,7 +82,7 @@ Lei Wang<span>&#42;</span>, <b>Zikun Ye</b>, Jinglong Zhao<span>&#8224;</span>. 
 </li>
 
 <li>
-<b>Zikun Ye</b>, Hema Yoganarasimhan. LLM-Augmented Market Research: An Efficient Survey Design Framework.
+<b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6605138">Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys.</a>
 <ul>
 <li>In preparation</li>
 </ul>
