@@ -75,14 +75,14 @@ Lei Wang<span>&#42;</span>, <b>Zikun Ye</b>, Jinglong Zhao<span>&#8224;</span>. 
 </li>
 
 <li>
-<b>Zikun Ye</b>, Jiameng Lyu, Rui Tao. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561778">Adaptive Budget Allocation in LLM-Augmented Surveys.</a>
+<b>Zikun Ye</b>, Jiameng Lyu, Rui Tao. <a href="https://arxiv.org/abs/2604.12497">Adaptive Budget Allocation in LLM-Augmented Surveys.</a>
 <ul>
 <li>Under review in <span style="color: var(--global-theme-color); font-weight: 700;">Manufacturing &amp; Service Operations Management</span></li>
 </ul>
 </li>
 
 <li>
-<b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6605138">Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys.</a>
+<b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://arxiv.org/abs/2604.17267">Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys.</a>
 <ul>
 <li>In preparation</li>
 </ul>
