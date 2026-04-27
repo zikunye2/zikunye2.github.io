@@ -251,6 +251,34 @@
     color: var(--muted);
     font-size: 13px;
   }
+  .all-people { margin-top: 36px; }
+  .all-people h2 { font-size: 22px; margin: 0 0 8px; }
+  .all-people .desc { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+  .person-row {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--soft);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    font-size: 14px;
+  }
+  .person-row:last-child { border-bottom: none; }
+  .person-row .pname { font-weight: 600; }
+  .person-row .pnid {
+    font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+    color: var(--accent);
+    font-size: 12px;
+    margin-left: 6px;
+  }
+  .person-row .psessions {
+    display: flex; gap: 14px; flex-wrap: wrap;
+    color: var(--fg); font-size: 13px;
+  }
+  .person-row .pgroup {
+    color: var(--muted); font-weight: 600;
+  }
+  .person-row .ses-present { color: var(--present); font-weight: 600; }
+  .person-row .ses-visit { color: var(--muted); }
   footer {
     margin-top: 40px;
     padding-top: 16px;
@@ -294,6 +322,12 @@
     <div id="all-groups-content"></div>
   </section>
 
+  <section class="all-people" id="all-people">
+    <h2>All people — alphabetical (backup)</h2>
+    <p class="desc">If NetID search isn't working, find yourself by last name here.</p>
+    <div id="all-people-content"></div>
+  </section>
+
   <footer>
     Generated from <code>schedule.json</code>. Print or screenshot for offline use.
   </footer>
@@ -334,6 +368,47 @@ SCHEDULE.sessions.forEach(s => {
   });
   block.innerHTML = html;
   allGroupsContent.appendChild(block);
+});
+
+// Render "all people" backup — alphabetical by last name
+const lastNameKey = name => {
+  const parts = name.trim().split(/\s+/);
+  return (parts.length > 1 ? parts[parts.length - 1] : name).toLowerCase();
+};
+const formatLastFirst = name => {
+  const parts = name.trim().split(/\s+/);
+  if (parts.length < 2) return name;
+  const last = parts[parts.length - 1];
+  const rest = parts.slice(0, -1).join(' ');
+  return `${last}, ${rest}`;
+};
+const allPeopleContent = document.getElementById('all-people-content');
+const sortedPeople = [...SCHEDULE.people].sort((a, b) => {
+  const k = lastNameKey(a.name).localeCompare(lastNameKey(b.name));
+  return k !== 0 ? k : a.name.localeCompare(b.name);
+});
+sortedPeople.forEach(p => {
+  const sessParts = [];
+  for (let s = 0; s < SCHEDULE.sessions.length; s++) {
+    if (s === p.presenting_session) {
+      sessParts.push(`<span class="ses-present">S${s+1} ▶ PRESENT</span>`);
+    } else {
+      const v = p.visits[String(s)];
+      if (v) {
+        sessParts.push(`<span class="ses-visit">S${s+1} → Group ${v.round1}, ${v.round2}</span>`);
+      }
+    }
+  }
+  const row = document.createElement('div');
+  row.className = 'person-row';
+  row.id = `person-${p.netid}`;
+  row.innerHTML = `
+    <div><span class="pname">${esc(formatLastFirst(p.name))}</span><span class="pnid">${esc(p.netid)}</span></div>
+    <div class="psessions">
+      <span class="pgroup">Group ${p.group_id}</span>
+      ${sessParts.join('')}
+    </div>`;
+  allPeopleContent.appendChild(row);
 });
 
 function esc(s) {
@@ -409,7 +484,6 @@ function renderMySchedule(person) {
       html += `<div class="session-card presenting">
         <div class="session-header">
           <span class="session-name">${session.label}</span>
-          <span class="session-time">~30 min · stay at your group's table</span>
         </div>
         <div class="row">
           <span class="label present">▶ PRESENT</span>
@@ -428,7 +502,6 @@ function renderMySchedule(person) {
       html += `<div class="session-card">
         <div class="session-header">
           <span class="session-name">${session.label}</span>
-          <span class="session-time">R1 ~12m · R2 ~12m · buffer ~6m</span>
         </div>
         <div class="row">
           <span class="label r1">Round 1</span>
