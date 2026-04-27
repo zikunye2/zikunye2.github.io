@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>MKTG 565 · Midpoint Check-in Scheduling</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1f2328;
+    --muted: #6e7781;
+    --line: #d0d7de;
+    --soft: #f6f8fa;
+    --accent: #0969da;
+    --accent-soft: #ddf4ff;
+    --present: #cf222e;
+    --present-soft: #ffeef0;
+    --r1: #1f883d;
+    --r2: #8250df;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display',
+                 'Helvetica Neue', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 28px 22px 64px;
+  }
+  header {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 20px;
+    margin-bottom: 28px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .search-section { margin-bottom: 28px; }
+  .search-section label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  .search-section .hint {
+    font-size: 13px;
+    color: var(--muted);
+    margin: 4px 0 8px;
+  }
+  #search {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 18px;
+    border: 2px solid var(--line);
+    border-radius: 12px;
+    outline: none;
+    background: var(--bg);
+    color: var(--fg);
+    transition: border-color 0.15s;
+    font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+  }
+  #search:focus { border-color: var(--accent); }
+  #suggestions {
+    margin-top: 6px;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    max-height: 240px;
+    overflow-y: auto;
+    display: none;
+  }
+  #suggestions.show { display: block; }
+  #suggestions div {
+    padding: 11px 14px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--soft);
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  #suggestions div:last-child { border-bottom: none; }
+  #suggestions div:hover, #suggestions div.active {
+    background: var(--accent-soft);
+  }
+  #suggestions .nid {
+    font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+  .empty-prompt {
+    background: var(--soft);
+    border: 1px dashed var(--line);
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    color: var(--muted);
+    margin-bottom: 24px;
+    font-size: 15px;
+  }
+  .my-schedule {
+    margin-bottom: 32px;
+    display: none;
+  }
+  .my-schedule.show { display: block; }
+  .my-schedule .greeting {
+    margin: 0 0 16px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .my-schedule .nid-line {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 16px;
+    font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+  }
+  .session-card {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+    background: var(--bg);
+  }
+  .session-card .session-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .session-card .session-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .session-card .session-time {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .session-card.presenting {
+    background: var(--present-soft);
+    border-color: var(--present);
+  }
+  .session-card.presenting .session-name {
+    color: var(--present);
+  }
+  .row {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 8px 0;
+  }
+  .row + .row { border-top: 1px solid var(--soft); }
+  .row .label {
+    font-weight: 700;
+    min-width: 92px;
+    font-size: 14px;
+  }
+  .row .label.r1 { color: var(--r1); }
+  .row .label.r2 { color: var(--r2); }
+  .row .label.present { color: var(--present); font-size: 16px; }
+  .row .body {
+    flex: 1;
+    font-size: 16px;
+  }
+  .row .body .group-id {
+    font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+    font-weight: 700;
+    font-size: 17px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 2px 10px;
+    border-radius: 8px;
+  }
+  .session-card.presenting .row .body .group-id {
+    background: var(--present-soft);
+    color: var(--present);
+    border: 1px solid var(--present);
+  }
+  .row .body .topic {
+    color: var(--fg);
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  .row .body .teammates {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 2px;
+  }
+  .all-groups { margin-top: 36px; }
+  .all-groups h2 {
+    font-size: 22px;
+    margin: 0 0 8px;
+  }
+  .all-groups .desc {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0 0 18px;
+  }
+  .all-groups .session-block {
+    margin-bottom: 26px;
+  }
+  .all-groups .session-block h3 {
+    font-size: 16px;
+    margin: 0 0 8px;
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent-soft);
+    padding-bottom: 4px;
+  }
+  .group-row {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--soft);
+  }
+  .group-row:last-child { border-bottom: none; }
+  .group-row .gid-cell {
+    font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+    font-weight: 700;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 4px;
+    font-size: 15px;
+    align-self: start;
+    line-height: 1.15;
+  }
+  .group-row .info {
+    font-size: 14px;
+  }
+  .group-row .info .title {
+    font-weight: 600;
+    margin-bottom: 2px;
+    font-size: 15px;
+  }
+  .group-row .info .members {
+    color: var(--muted);
+    font-size: 13px;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 12px;
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    header h1 { font-size: 22px; }
+    .row { flex-direction: column; gap: 4px; }
+    .row .label { min-width: auto; }
+    #search { font-size: 16px; padding: 12px 14px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>MKTG 565 · Midpoint Check-in Scheduling</h1>
+  </header>
+
+  <section class="search-section">
+    <label for="search">UWNetID:</label>
+    <div class="hint">Can't find by NetID? Scroll to the full list at the bottom — it's the backup.</div>
+    <input id="search" type="text" autocomplete="off"
+           placeholder="netid"
+           aria-autocomplete="list"
+           aria-controls="suggestions">
+    <div id="suggestions" role="listbox"></div>
+  </section>
+
+  <div id="empty-prompt" class="empty-prompt">
+    Type your NetID above to see your personalized schedule.
+  </div>
+
+  <section class="my-schedule" id="my-schedule" aria-live="polite"></section>
+
+  <section class="all-groups" id="all-groups">
+    <h2>All groups by session</h2>
+    <div id="all-groups-content"></div>
+  </section>
+
+  <footer>
+    Generated from <code>schedule.json</code>. Print or screenshot for offline use.
+  </footer>
+</div>
+
+<script>
+const SCHEDULE = {"meta": {"seed": 42, "num_groups": 28, "num_people": 44, "num_sessions": 3, "round_minutes": 12, "buffer_minutes": 6}, "sessions": [{"index": 0, "label": "Session 1", "groups": [{"id": 1, "title": "Competitor Sentiment Dashboard", "title_raw": "Competitor Sentiment Dashboard", "members": [{"name": "Adnane Ettayeby", "netid": "adnane"}, {"name": "Wenqi Wang", "netid": "wenqwan"}, {"name": "Lucas Hash", "netid": "lhash"}], "size": 3}, {"id": 2, "title": "Meeting Follow-Up Assistant", "title_raw": "Meeting Follow-Up Assistant", "members": [{"name": "Gregory Patrick Sevilla", "netid": "gsevilla"}], "size": 1}, {"id": 3, "title": "Undecided — Some Kind of AI Assistant", "title_raw": "Undecided — Some Kind of AI Assistant", "members": [{"name": "Jipsa Rao Vankayala", "netid": "jipsarao"}], "size": 1}, {"id": 4, "title": "AI-Powered Freelancer Proposal Writer", "title_raw": "AI-Powered Freelancer Proposal Writer", "members": [{"name": "Gareth Farrell", "netid": "garethf"}, {"name": "Grant Riechmann", "netid": "riegrant"}, {"name": "Stephan Splitstoser", "netid": "splits"}], "size": 3}, {"id": 5, "title": "AI Meeting-to-Strategy Advisor", "title_raw": "AI Meeting-to-Strategy Advisor", "members": [{"name": "Takafumi Hosono", "netid": "tika19"}], "size": 1}, {"id": 6, "title": "Cloud Cost Detective", "title_raw": "Cloud Cost Detective", "members": [{"name": "Akshita Sharma", "netid": "akshitas"}, {"name": "Ishita Malik", "netid": "ismalik"}], "size": 2}, {"id": 7, "title": "HistoryRepeats — News → Historical Parallels", "title_raw": "HistoryRepeats — News → Historical Parallels", "members": [{"name": "Corey Zhu", "netid": "coreyzhu"}], "size": 1}, {"id": 8, "title": "Project pending", "title_raw": "Not decided", "members": [{"name": "Shanker B", "netid": "smb007"}, {"name": "Rahul Bhowmick", "netid": "rahulbho"}], "size": 2}, {"id": 9, "title": "Project TBD", "title_raw": "Unresponded to check email", "members": [{"name": "Claire Nguyen", "netid": "hangn2"}], "size": 1}]}, {"index": 1, "label": "Session 2", "groups": [{"id": 10, "title": "Amazon Publishing Acquisition Doc Generator", "title_raw": "Amazon Publishing Acquisition Doc Generator", "members": [{"name": "Jake Bernoski", "netid": "jber243"}, {"name": "Deanna Mohaghegh", "netid": "dzm"}], "size": 2}, {"id": 11, "title": "Marine Service LLM Assistant", "title_raw": "Marine Service LLM Assistant", "members": [{"name": "Andrew Fellows", "netid": "fellowsa"}], "size": 1}, {"id": 12, "title": "AI-Powered Micro-Staffing & Compliance Platform", "title_raw": "AI-Powered Micro-Staffing & Compliance Platform", "members": [{"name": "Thao Blanchard", "netid": "tblancha"}, {"name": "Katie Hoeg", "netid": "hoegk"}, {"name": "Joel Prock", "netid": "jprock"}], "size": 3}, {"id": 13, "title": "AI-Powered Urban Hike & Bike Route Planner", "title_raw": "AI-Powered Urban Hike & Bike Route Planner", "members": [{"name": "Larry Sims", "netid": "larry7"}], "size": 1}, {"id": 14, "title": "Agentic Drink Cart Placement Optimizer", "title_raw": "Agentic Drink Cart Placement Optimizer", "members": [{"name": "Austin Joyce", "netid": "ajoyce41"}, {"name": "Joe McNiff", "netid": "jmcniff"}], "size": 2}, {"id": 15, "title": "Echo — Voice-of-Customer Intelligence", "title_raw": "Echo — Voice-of-Customer Intelligence", "members": [{"name": "Von Audar", "netid": "vonage"}], "size": 1}, {"id": 16, "title": "TeraWave Investment Memo Generator", "title_raw": "TeraWave Investment Memo Generator", "members": [{"name": "Mert Kocyigit", "netid": "mertk992"}], "size": 1}, {"id": 17, "title": "AI A&R Scout — Music Talent Discovery Engine", "title_raw": "AI A&R Scout — Music Talent Discovery Engine", "members": [{"name": "Minnie (Napatsorn) Sirijaratwong", "netid": "n2491598"}, {"name": "Stefan Lozano", "netid": "slozano"}], "size": 2}, {"id": 18, "title": "Project TBD", "title_raw": "Unresponded to check email", "members": [{"name": "Gagana Ganesh", "netid": "gg44"}], "size": 1}, {"id": 19, "title": "Project TBD", "title_raw": "Unresponded to check email", "members": [{"name": "Michael Pouch", "netid": "mpouch21"}], "size": 1}]}, {"index": 2, "label": "Session 3", "groups": [{"id": 20, "title": "Bowie AI — B2B Sales Deck Critique Agent", "title_raw": "Bowie AI — B2B Sales Deck Critique Agent", "members": [{"name": "Matt Kolenski", "netid": "kolenski"}, {"name": "Olivia Makepeace Tayler", "netid": "ompeace"}, {"name": "Matt Ahlquist", "netid": "mattahl"}], "size": 3}, {"id": 21, "title": "Daily Investment Brief — 2-Minute AI Investor", "title_raw": "Daily Investment Brief — 2-Minute AI Investor", "members": [{"name": "Joseph Mar", "netid": "joemar1"}, {"name": "Ileesha Kumar", "netid": "ileesha"}], "size": 2}, {"id": 22, "title": "Sabercast — MLB Roster/Scouting Tool", "title_raw": "Sabercast — MLB Roster/Scouting Tool", "members": [{"name": "Robert Peugh", "netid": "rpeugh"}], "size": 1}, {"id": 23, "title": "Daily Restaurant Deal Tracker", "title_raw": "Daily Restaurant Deal Tracker", "members": [{"name": "Lalitha Subramanian, Santhosh Selvam", "netid": "santosh1"}], "size": 1}, {"id": 24, "title": "AI-Powered Competitive Intelligence Tool (B2B SaaS)", "title_raw": "AI-Powered Competitive Intelligence Tool (B2B SaaS)", "members": [{"name": "Amir Bakhshi", "netid": "abakhshi"}], "size": 1}, {"id": 25, "title": "Concert Enjoyment Predictor", "title_raw": "Concert Enjoyment Predictor", "members": [{"name": "Vineet Nandkishore", "netid": "vin97"}, {"name": "Travis Johnson", "netid": "travisjj"}], "size": 2}, {"id": 26, "title": "Local Business Opportunity Scout", "title_raw": "Local Business Opportunity Scout", "members": [{"name": "Benjamin Pitock", "netid": "bpitock"}], "size": 1}, {"id": 27, "title": "UW Foster MBA RAG-Powered Assistant", "title_raw": "UW Foster MBA RAG-Powered Assistant", "members": [{"name": "Jimmy Yin", "netid": "jimmyin"}, {"name": "Jens Jung", "netid": "jjung23"}], "size": 2}, {"id": 28, "title": "Project TBD", "title_raw": "Unresponded to check email", "members": [{"name": "Sheenam Jindal", "netid": "shjindal"}], "size": 1}]}], "people": [{"netid": "adnane", "name": "Adnane Ettayeby", "group_id": 1, "group_title": "Competitor Sentiment Dashboard", "presenting_session": 0, "visits": {"1": {"round1": 11, "round2": 16}, "2": {"round1": 23, "round2": 21}}}, {"netid": "wenqwan", "name": "Wenqi Wang", "group_id": 1, "group_title": "Competitor Sentiment Dashboard", "presenting_session": 0, "visits": {"1": {"round1": 16, "round2": 13}, "2": {"round1": 27, "round2": 26}}}, {"netid": "lhash", "name": "Lucas Hash", "group_id": 1, "group_title": "Competitor Sentiment Dashboard", "presenting_session": 0, "visits": {"1": {"round1": 12, "round2": 11}, "2": {"round1": 27, "round2": 26}}}, {"netid": "gsevilla", "name": "Gregory Patrick Sevilla", "group_id": 2, "group_title": "Meeting Follow-Up Assistant", "presenting_session": 0, "visits": {"1": {"round1": 19, "round2": 18}, "2": {"round1": 24, "round2": 28}}}, {"netid": "jipsarao", "name": "Jipsa Rao Vankayala", "group_id": 3, "group_title": "Undecided — Some Kind of AI Assistant", "presenting_session": 0, "visits": {"1": {"round1": 12, "round2": 11}, "2": {"round1": 26, "round2": 22}}}, {"netid": "garethf", "name": "Gareth Farrell", "group_id": 4, "group_title": "AI-Powered Freelancer Proposal Writer", "presenting_session": 0, "visits": {"1": {"round1": 14, "round2": 17}, "2": {"round1": 22, "round2": 20}}}, {"netid": "riegrant", "name": "Grant Riechmann", "group_id": 4, "group_title": "AI-Powered Freelancer Proposal Writer", "presenting_session": 0, "visits": {"1": {"round1": 16, "round2": 13}, "2": {"round1": 21, "round2": 27}}}, {"netid": "splits", "name": "Stephan Splitstoser", "group_id": 4, "group_title": "AI-Powered Freelancer Proposal Writer", "presenting_session": 0, "visits": {"1": {"round1": 18, "round2": 15}, "2": {"round1": 27, "round2": 26}}}, {"netid": "tika19", "name": "Takafumi Hosono", "group_id": 5, "group_title": "AI Meeting-to-Strategy Advisor", "presenting_session": 0, "visits": {"1": {"round1": 15, "round2": 14}, "2": {"round1": 21, "round2": 27}}}, {"netid": "akshitas", "name": "Akshita Sharma", "group_id": 6, "group_title": "Cloud Cost Detective", "presenting_session": 0, "visits": {"1": {"round1": 15, "round2": 14}, "2": {"round1": 23, "round2": 21}}}, {"netid": "ismalik", "name": "Ishita Malik", "group_id": 6, "group_title": "Cloud Cost Detective", "presenting_session": 0, "visits": {"1": {"round1": 19, "round2": 18}, "2": {"round1": 23, "round2": 21}}}, {"netid": "coreyzhu", "name": "Corey Zhu", "group_id": 7, "group_title": "HistoryRepeats — News → Historical Parallels", "presenting_session": 0, "visits": {"1": {"round1": 10, "round2": 12}, "2": {"round1": 22, "round2": 20}}}, {"netid": "smb007", "name": "Shanker B", "group_id": 8, "group_title": "Project pending", "presenting_session": 0, "visits": {"1": {"round1": 14, "round2": 17}, "2": {"round1": 28, "round2": 23}}}, {"netid": "rahulbho", "name": "Rahul Bhowmick", "group_id": 8, "group_title": "Project pending", "presenting_session": 0, "visits": {"1": {"round1": 13, "round2": 19}, "2": {"round1": 24, "round2": 28}}}, {"netid": "hangn2", "name": "Claire Nguyen", "group_id": 9, "group_title": "Project TBD", "presenting_session": 0, "visits": {"1": {"round1": 17, "round2": 10}, "2": {"round1": 25, "round2": 24}}}, {"netid": "jber243", "name": "Jake Bernoski", "group_id": 10, "group_title": "Amazon Publishing Acquisition Doc Generator", "presenting_session": 1, "visits": {"0": {"round1": 5, "round2": 1}, "2": {"round1": 21, "round2": 27}}}, {"netid": "dzm", "name": "Deanna Mohaghegh", "group_id": 10, "group_title": "Amazon Publishing Acquisition Doc Generator", "presenting_session": 1, "visits": {"0": {"round1": 9, "round2": 2}, "2": {"round1": 20, "round2": 25}}}, {"netid": "fellowsa", "name": "Andrew Fellows", "group_id": 11, "group_title": "Marine Service LLM Assistant", "presenting_session": 1, "visits": {"0": {"round1": 1, "round2": 8}, "2": {"round1": 24, "round2": 28}}}, {"netid": "tblancha", "name": "Thao Blanchard", "group_id": 12, "group_title": "AI-Powered Micro-Staffing & Compliance Platform", "presenting_session": 1, "visits": {"0": {"round1": 4, "round2": 9}, "2": {"round1": 25, "round2": 24}}}, {"netid": "hoegk", "name": "Katie Hoeg", "group_id": 12, "group_title": "AI-Powered Micro-Staffing & Compliance Platform", "presenting_session": 1, "visits": {"0": {"round1": 1, "round2": 8}, "2": {"round1": 28, "round2": 23}}}, {"netid": "jprock", "name": "Joel Prock", "group_id": 12, "group_title": "AI-Powered Micro-Staffing & Compliance Platform", "presenting_session": 1, "visits": {"0": {"round1": 4, "round2": 9}, "2": {"round1": 26, "round2": 22}}}, {"netid": "larry7", "name": "Larry Sims", "group_id": 13, "group_title": "AI-Powered Urban Hike & Bike Route Planner", "presenting_session": 1, "visits": {"0": {"round1": 7, "round2": 3}, "2": {"round1": 25, "round2": 24}}}, {"netid": "ajoyce41", "name": "Austin Joyce", "group_id": 14, "group_title": "Agentic Drink Cart Placement Optimizer", "presenting_session": 1, "visits": {"0": {"round1": 4, "round2": 9}, "2": {"round1": 22, "round2": 20}}}, {"netid": "jmcniff", "name": "Joe McNiff", "group_id": 14, "group_title": "Agentic Drink Cart Placement Optimizer", "presenting_session": 1, "visits": {"0": {"round1": 8, "round2": 6}, "2": {"round1": 23, "round2": 21}}}, {"netid": "vonage", "name": "Von Audar", "group_id": 15, "group_title": "Echo — Voice-of-Customer Intelligence", "presenting_session": 1, "visits": {"0": {"round1": 5, "round2": 1}, "2": {"round1": 20, "round2": 25}}}, {"netid": "mertk992", "name": "Mert Kocyigit", "group_id": 16, "group_title": "TeraWave Investment Memo Generator", "presenting_session": 1, "visits": {"0": {"round1": 9, "round2": 2}, "2": {"round1": 26, "round2": 22}}}, {"netid": "n2491598", "name": "Minnie (Napatsorn) Sirijaratwong", "group_id": 17, "group_title": "AI A&R Scout — Music Talent Discovery Engine", "presenting_session": 1, "visits": {"0": {"round1": 3, "round2": 4}, "2": {"round1": 27, "round2": 26}}}, {"netid": "slozano", "name": "Stefan Lozano", "group_id": 17, "group_title": "AI A&R Scout — Music Talent Discovery Engine", "presenting_session": 1, "visits": {"0": {"round1": 8, "round2": 6}, "2": {"round1": 24, "round2": 28}}}, {"netid": "gg44", "name": "Gagana Ganesh", "group_id": 18, "group_title": "Project TBD", "presenting_session": 1, "visits": {"0": {"round1": 3, "round2": 4}, "2": {"round1": 28, "round2": 23}}}, {"netid": "mpouch21", "name": "Michael Pouch", "group_id": 19, "group_title": "Project TBD", "presenting_session": 1, "visits": {"0": {"round1": 5, "round2": 1}, "2": {"round1": 20, "round2": 25}}}, {"netid": "kolenski", "name": "Matt Kolenski", "group_id": 20, "group_title": "Bowie AI — B2B Sales Deck Critique Agent", "presenting_session": 2, "visits": {"0": {"round1": 7, "round2": 3}, "1": {"round1": 10, "round2": 12}}}, {"netid": "ompeace", "name": "Olivia Makepeace Tayler", "group_id": 20, "group_title": "Bowie AI — B2B Sales Deck Critique Agent", "presenting_session": 2, "visits": {"0": {"round1": 2, "round2": 5}, "1": {"round1": 18, "round2": 15}}}, {"netid": "mattahl", "name": "Matt Ahlquist", "group_id": 20, "group_title": "Bowie AI — B2B Sales Deck Critique Agent", "presenting_session": 2, "visits": {"0": {"round1": 2, "round2": 5}, "1": {"round1": 11, "round2": 16}}}, {"netid": "joemar1", "name": "Joseph Mar", "group_id": 21, "group_title": "Daily Investment Brief — 2-Minute AI Investor", "presenting_session": 2, "visits": {"0": {"round1": 6, "round2": 7}, "1": {"round1": 19, "round2": 18}}}, {"netid": "ileesha", "name": "Ileesha Kumar", "group_id": 21, "group_title": "Daily Investment Brief — 2-Minute AI Investor", "presenting_session": 2, "visits": {"0": {"round1": 6, "round2": 7}, "1": {"round1": 13, "round2": 19}}}, {"netid": "rpeugh", "name": "Robert Peugh", "group_id": 22, "group_title": "Sabercast — MLB Roster/Scouting Tool", "presenting_session": 2, "visits": {"0": {"round1": 7, "round2": 3}, "1": {"round1": 16, "round2": 13}}}, {"netid": "santosh1", "name": "Lalitha Subramanian, Santhosh Selvam", "group_id": 23, "group_title": "Daily Restaurant Deal Tracker", "presenting_session": 2, "visits": {"0": {"round1": 7, "round2": 3}, "1": {"round1": 14, "round2": 17}}}, {"netid": "abakhshi", "name": "Amir Bakhshi", "group_id": 24, "group_title": "AI-Powered Competitive Intelligence Tool (B2B SaaS)", "presenting_session": 2, "visits": {"0": {"round1": 9, "round2": 2}, "1": {"round1": 13, "round2": 19}}}, {"netid": "vin97", "name": "Vineet Nandkishore", "group_id": 25, "group_title": "Concert Enjoyment Predictor", "presenting_session": 2, "visits": {"0": {"round1": 4, "round2": 9}, "1": {"round1": 18, "round2": 15}}}, {"netid": "travisjj", "name": "Travis Johnson", "group_id": 25, "group_title": "Concert Enjoyment Predictor", "presenting_session": 2, "visits": {"0": {"round1": 2, "round2": 5}, "1": {"round1": 15, "round2": 14}}}, {"netid": "bpitock", "name": "Benjamin Pitock", "group_id": 26, "group_title": "Local Business Opportunity Scout", "presenting_session": 2, "visits": {"0": {"round1": 8, "round2": 6}, "1": {"round1": 10, "round2": 12}}}, {"netid": "jimmyin", "name": "Jimmy Yin", "group_id": 27, "group_title": "UW Foster MBA RAG-Powered Assistant", "presenting_session": 2, "visits": {"0": {"round1": 3, "round2": 4}, "1": {"round1": 17, "round2": 10}}}, {"netid": "jjung23", "name": "Jens Jung", "group_id": 27, "group_title": "UW Foster MBA RAG-Powered Assistant", "presenting_session": 2, "visits": {"0": {"round1": 6, "round2": 7}, "1": {"round1": 11, "round2": 16}}}, {"netid": "shjindal", "name": "Sheenam Jindal", "group_id": 28, "group_title": "Project TBD", "presenting_session": 2, "visits": {"0": {"round1": 1, "round2": 8}, "1": {"round1": 17, "round2": 10}}}], "warnings": ["REGISTERED student missing from project sheet: Yoonju Oh (yoonjuoh)", "REGISTERED student missing from project sheet: Lalitha Subramanian (slalitha)"]};
+
+const groupLookup = {};
+SCHEDULE.sessions.forEach(s => {
+  s.groups.forEach(g => {
+    groupLookup[g.id] = { ...g, sessionIndex: s.index, sessionLabel: s.label };
+  });
+});
+
+const peopleByNetid = {};
+const peopleByName = [];
+SCHEDULE.people.forEach(p => {
+  if (p.netid) peopleByNetid[p.netid.toLowerCase()] = p;
+  peopleByName.push(p);
+});
+
+// Render "all groups" tables
+const allGroupsContent = document.getElementById('all-groups-content');
+SCHEDULE.sessions.forEach(s => {
+  const block = document.createElement('div');
+  block.className = 'session-block';
+  let html = `<h3>${s.label} · ${s.groups.length} groups</h3>`;
+  s.groups.forEach(g => {
+    const memberNames = g.members.map(m => esc(m.name)).join(', ');
+    html += `<div class="group-row" id="group-${g.id}">
+      <div class="gid-cell">Group ${g.id}</div>
+      <div class="info">
+        <div class="title">${esc(g.title)}</div>
+        <div class="members">${memberNames}</div>
+      </div>
+    </div>`;
+  });
+  block.innerHTML = html;
+  allGroupsContent.appendChild(block);
+});
+
+function esc(s) {
+  return String(s)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+const searchEl = document.getElementById('search');
+const suggestionsEl = document.getElementById('suggestions');
+const emptyPrompt = document.getElementById('empty-prompt');
+const myScheduleEl = document.getElementById('my-schedule');
+let activeSuggestion = -1;
+
+function getSuggestions(query) {
+  const q = query.trim().toLowerCase();
+  if (q.length < 2) return [];
+  const exactNetid = peopleByNetid[q];
+  if (exactNetid) return [exactNetid];
+  return peopleByName
+    .filter(p => p.netid.toLowerCase().includes(q) ||
+                 p.name.toLowerCase().includes(q))
+    .slice(0, 8);
+}
+
+function renderSuggestions(items) {
+  suggestionsEl.innerHTML = '';
+  items.forEach((p, idx) => {
+    const div = document.createElement('div');
+    div.innerHTML = `<span>${esc(p.name)}</span>
+                     <span class="nid">${esc(p.netid)}</span>`;
+    div.dataset.netid = p.netid;
+    div.setAttribute('role', 'option');
+    if (idx === activeSuggestion) div.classList.add('active');
+    div.onclick = () => selectPerson(p.netid);
+    suggestionsEl.appendChild(div);
+  });
+  suggestionsEl.classList.toggle('show', items.length > 0);
+}
+
+function selectPerson(netid) {
+  searchEl.value = netid;
+  suggestionsEl.classList.remove('show');
+  renderMySchedule(peopleByNetid[netid.toLowerCase()]);
+}
+
+function renderMySchedule(person) {
+  if (!person) {
+    myScheduleEl.classList.remove('show');
+    emptyPrompt.style.display = 'block';
+    return;
+  }
+  emptyPrompt.style.display = 'none';
+  const firstName = person.name.split(' ')[0];
+  let html = `<h2 class="greeting">Hi ${esc(firstName)} — here's your schedule:</h2>
+              <div class="nid-line">NetID <strong>${esc(person.netid)}</strong>
+              · Group <strong>#${person.group_id}</strong>
+              · Topic: ${esc(person.group_title)}</div>`;
+
+  for (let s = 0; s < SCHEDULE.sessions.length; s++) {
+    const session = SCHEDULE.sessions[s];
+    if (s === person.presenting_session) {
+      const ownGroup = groupLookup[person.group_id];
+      const teammates = ownGroup.members
+        .filter(m => m.netid !== person.netid)
+        .map(m => m.name);
+      const teammateLine = teammates.length
+        ? `Presenting with: ${teammates.map(esc).join(', ')}`
+        : 'Solo presentation.';
+      html += `<div class="session-card presenting">
+        <div class="session-header">
+          <span class="session-name">${session.label}</span>
+          <span class="session-time">~30 min · stay at your group's table</span>
+        </div>
+        <div class="row">
+          <span class="label present">▶ PRESENT</span>
+          <div class="body">
+            <span class="group-id">Group ${ownGroup.id}</span>
+            <div class="topic">${esc(ownGroup.title)}</div>
+            <div class="teammates">${teammateLine}</div>
+          </div>
+        </div>
+      </div>`;
+    } else {
+      const v = person.visits[String(s)];
+      if (!v) continue;
+      const r1 = groupLookup[v.round1];
+      const r2 = groupLookup[v.round2];
+      html += `<div class="session-card">
+        <div class="session-header">
+          <span class="session-name">${session.label}</span>
+          <span class="session-time">R1 ~12m · R2 ~12m · buffer ~6m</span>
+        </div>
+        <div class="row">
+          <span class="label r1">Round 1</span>
+          <div class="body">
+            <span class="group-id">Group ${r1.id}</span>
+            <div class="topic">${esc(r1.title)}</div>
+          </div>
+        </div>
+        <div class="row">
+          <span class="label r2">Round 2</span>
+          <div class="body">
+            <span class="group-id">Group ${r2.id}</span>
+            <div class="topic">${esc(r2.title)}</div>
+          </div>
+        </div>
+      </div>`;
+    }
+  }
+  myScheduleEl.innerHTML = html;
+  myScheduleEl.classList.add('show');
+}
+
+searchEl.addEventListener('input', (e) => {
+  const items = getSuggestions(e.target.value);
+  activeSuggestion = -1;
+  renderSuggestions(items);
+  // exact NetID match → render directly
+  const q = e.target.value.trim().toLowerCase();
+  if (peopleByNetid[q]) renderMySchedule(peopleByNetid[q]);
+});
+
+searchEl.addEventListener('keydown', (e) => {
+  const items = getSuggestions(searchEl.value);
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    activeSuggestion = Math.min(activeSuggestion + 1, items.length - 1);
+    renderSuggestions(items);
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    activeSuggestion = Math.max(activeSuggestion - 1, 0);
+    renderSuggestions(items);
+  } else if (e.key === 'Enter') {
+    e.preventDefault();
+    if (activeSuggestion >= 0 && items[activeSuggestion]) {
+      selectPerson(items[activeSuggestion].netid);
+    } else if (items.length === 1) {
+      selectPerson(items[0].netid);
+    }
+  } else if (e.key === 'Escape') {
+    suggestionsEl.classList.remove('show');
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.search-section')) {
+    suggestionsEl.classList.remove('show');
+  }
+});
+
+// Deep link: ?netid=jber243
+const urlParams = new URLSearchParams(window.location.search);
+const presetNetid = urlParams.get('netid');
+if (presetNetid && peopleByNetid[presetNetid.toLowerCase()]) {
+  searchEl.value = presetNetid;
+  renderMySchedule(peopleByNetid[presetNetid.toLowerCase()]);
+}
+</script>
+</body>
+</html>
