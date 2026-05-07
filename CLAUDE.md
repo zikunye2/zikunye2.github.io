@@ -25,6 +25,15 @@ separate deploy step. Check status with:
 gh run list --workflow=deploy.yml --limit 3
 ```
 
+## Keep llms.txt in sync
+
+`llms.txt` at the repo root is an AI-readable summary of the site, covering
+bio, research threads, publications, teaching, services, and contact. When
+making content changes that affect any of these (adding a paper, updating a
+course, changing the bio, changing services), update `llms.txt` to keep it
+in sync. Pure styling changes (CSS, layout, theme) do not require llms.txt
+updates.
+
 ## Commit messages
 
 Follow `<type>: <description>` (types: `feat`, `fix`, `refactor`, `docs`,
