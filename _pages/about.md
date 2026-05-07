@@ -30,6 +30,10 @@ latest_posts:
 
 I am an Assistant Professor of Marketing at the [Michael G. Foster School of Business](https://foster.uw.edu/) at the University of Washington.
 
-My research focuses on developing and leveraging generative AI, LLMs, causal machine learning, and field experiments to improve business decision making. My recent interests center on agentic AI for autonomous decision support, alongside LLM-powered market research through better framework designs.
+My research builds and deploys artificial intelligence for business decision-making. My work spans three threads:
+
+- **Efficient agentic AI** — Improving the efficiency of AI agent workflows through orchestration- and inference-level optimizations.
+- **LLM-augmented market research** — Augmenting market research with LLMs to do more with less human data, through meta learning, alignment, rectification, and adaptive sampling.
+- **Data-driven algorithm design for operations and marketing** — Combining causal machine learning, optimization, and large-scale field experiments, with deployments at online advertising platforms and marketplaces.
 
 Before joining the Foster School of Business, I earned my Ph.D. in Operations Research from the University of Illinois at Urbana-Champaign in 2023 and my Bachelor's degree in Mathematics and Engineering with Zhiyuan honors from Shanghai Jiao Tong University in 2018.

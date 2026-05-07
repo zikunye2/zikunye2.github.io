@@ -8,6 +8,12 @@ nav_order: 3
 display_title: false
 ---
 
+<div style="border-left: 4px solid var(--global-theme-color); padding: 0.5rem 0 0.5rem 1.25rem; margin: 1rem 0 2rem 0;">
+  <h3 style="margin-top: 0; margin-bottom: 0.55rem; color: var(--global-theme-color); font-weight: 700;">Building Business Applications of LLMs and Generative Models</h3>
+  <p style="margin-bottom: 0.7rem; line-height: 1.55;">Starting Spring 2026, I will teach this hands-on course every spring quarter at Foster — MKTG 565 for the MBA section and MKTG 490 for the undergraduate section.</p>
+  <p style="margin: 0;"><a href="/mktg565/" style="color: var(--global-theme-color); font-weight: 700; font-size: 1.1rem;">View the full syllabus →</a></p>
+</div>
+
 #### University of Washington
 
 **Generative AI and LLMs for Business**
