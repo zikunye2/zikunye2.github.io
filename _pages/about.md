@@ -30,7 +30,7 @@ latest_posts:
 
 I am an Assistant Professor of Marketing at the [Michael G. Foster School of Business](https://foster.uw.edu/) at the University of Washington.
 
-My research builds and deploys artificial intelligence for business decision-making. My work spans three threads:
+My research builds and deploys artificial intelligence. My work spans three threads:
 
 - **Efficient agentic AI** — Improving the efficiency of AI agent workflows through orchestration- and inference-level optimizations.
 - **LLM-augmented market research** — Augmenting market research with LLMs to do more with less human data, through meta learning, alignment, rectification, and adaptive sampling.
