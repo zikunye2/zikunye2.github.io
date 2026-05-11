@@ -15,9 +15,9 @@ display_title: false
 <ul>
 
 <li>
-Shuai Li<span>&#42;</span>, <b>Zikun Ye</b>, Xin Chen, Weijun Xie. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901">Joint Assortment Optimization and Discrete Marketing Mix Allocation.</a>
+Shuai Li<span>&#42;</span>, <b>Zikun Ye</b>, Xin Chen, Weijun Xie. <a href="https://pubsonline.informs.org/doi/abs/10.1287/msom.2024.1406">Joint Assortment Optimization and Discrete Marketing Mix Allocation.</a>
 <ul>
-<li><span style="color: var(--global-theme-color); font-weight: 700;">Manufacturing &amp; Service Operations Management</span>, Forthcoming, 2026</li>
+<li><span style="color: var(--global-theme-color); font-weight: 700;">Manufacturing &amp; Service Operations Management</span>, 2026</li>
 </ul>
 </li>
 
