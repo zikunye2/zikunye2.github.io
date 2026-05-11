@@ -16,7 +16,7 @@ I earned my Ph.D. in Operations Research from the University of Illinois at Urba
 
 ## Journal Publications
 
-- **Joint Assortment Optimization and Discrete Marketing Mix Allocation**. Shuai Li, Zikun Ye, Xin Chen, Weijun Xie. *Manufacturing & Service Operations Management*, forthcoming 2026. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4961901
+- **Joint Assortment Optimization and Discrete Marketing Mix Allocation**. Shuai Li, Zikun Ye, Xin Chen, Weijun Xie. *Manufacturing & Service Operations Management*, 2026. https://pubsonline.informs.org/doi/abs/10.1287/msom.2024.1406
 - **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**. Zikun Ye, Hema Yoganarasimhan, Yufeng Zheng. *Marketing Science*, 2025. Code: https://github.com/DDDOH/LLM_News. https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990
 - **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**. Zikun Ye, Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. *Management Science*, 2025. First Prize, INFORMS Social Media Analytics Best Student Paper Award, 2023. https://pubsonline.informs.org/doi/full/10.1287/mnsc.2024.04625
 - **Efficient Algorithms for a Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management**. Xin Chen, Niao He, Yifan Hu, Zikun Ye (alphabetical authorship). *Operations Research*, 2024. https://pubsonline.informs.org/doi/10.1287/opre.2022.0216
