@@ -62,30 +62,18 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
 
 <li>
 <b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://arxiv.org/abs/2505.23842">Fair Document Valuation in LLM Summaries via Shapley Values.</a> [<a href="https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries">Code</a>]
-<ul>
-<li>Under review in <span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span></li>
-</ul>
 </li>
 
 <li>
 Lei Wang<span>&#42;</span>, <b>Zikun Ye</b>, Jinglong Zhao<span>&#8224;</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184">Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification.</a>
-<ul>
-<li>Under review in <span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span></li>
-</ul>
 </li>
 
 <li>
 <b>Zikun Ye</b>, Jiameng Lyu, Rui Tao. <a href="https://arxiv.org/abs/2604.12497">Adaptive Budget Allocation in LLM-Augmented Surveys.</a>
-<ul>
-<li>Under review in <span style="color: var(--global-theme-color); font-weight: 700;">Manufacturing &amp; Service Operations Management</span></li>
-</ul>
 </li>
 
 <li>
 <b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://arxiv.org/abs/2604.17267">Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys.</a>
-<ul>
-<li>In preparation</li>
-</ul>
 </li>
 
 </ul>
