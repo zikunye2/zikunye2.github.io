@@ -62,6 +62,9 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
 
 <li>
 <b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://arxiv.org/abs/2505.23842">Fair Document Valuation in LLM Summaries via Shapley Values.</a> [<a href="https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries">Code</a>]
+<ul>
+<li>Minor revision in <span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span></li>
+</ul>
 </li>
 
 <li>
