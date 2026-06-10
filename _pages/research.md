@@ -72,7 +72,7 @@ Lei Wang<span>&#42;</span>, <b>Zikun Ye</b>, Jinglong Zhao<span>&#8224;</span>. 
 </li>
 
 <li>
-<b>Zikun Ye</b>, Jiameng Lyu, Rui Tao. <a href="https://arxiv.org/abs/2604.12497">Adaptive Budget Allocation in LLM-Augmented Surveys.</a>
+<b>Zikun Ye</b>, Jiameng Lyu, Rui Tao. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561778">Allocating Human Oversight in AI-Enabled Analytics.</a>
 </li>
 
 <li>
