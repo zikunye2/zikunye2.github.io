@@ -9,7 +9,7 @@ profile:
   image: zye.png
   image_circular: false
   more_info: >
-    <p>Paccar Hall 431</p>
+    <p>Paccar Hall 465</p>
     <p>Foster School of Business</p>
     <p>University of Washington</p>
     <p><span class="hide-mobile">Contact: </span>zikunye at uw dot edu</p>
