@@ -22,20 +22,20 @@ Shuai Li<span>&#42;</span>, <b>Zikun Ye</b>, Xin Chen, Weijun Xie. <a href="http
 </li>
 
 <li>
-<b>Zikun Ye</b>, Hema Yoganarasimhan, Yufeng Zheng. <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990">LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments.</a> [<a href="https://github.com/DDDOH/LLM_News">Code</a>]
-<ul>
-<li><span style="color: var(--global-theme-color); font-weight: 700;">Marketing Science</span>, 2025</li>
-<li>Quantitative Marketing and Economics (QME) Conference, 2024</li>
-</ul>
-</li>
-
-<li>
 <b>Zikun Ye</b>, Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. <a href="https://pubsonline.informs.org/doi/full/10.1287/mnsc.2024.04625">Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence.</a> [<a href="https://github.com/ZhiqiZhang1229/Deep-learning-based-causal-inference-for-large-scale-combinatorial-experiments-">Code</a>]
 <ul>
 <li><span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span>, 2025</li>
 <li>Accepted at ACM Conference on Economics and Computation (EC'23)</li>
 <li>First Prize, INFORMS Social Media Analytics Best Student Paper Award, 2023</li>
 <li>Second Prize, CSAMSE Best Paper Award, 2023</li>
+</ul>
+</li>
+
+<li>
+<b>Zikun Ye</b>, Hema Yoganarasimhan, Yufeng Zheng. <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990">LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments.</a> [<a href="https://github.com/DDDOH/LLM_News">Code</a>]
+<ul>
+<li><span style="color: var(--global-theme-color); font-weight: 700;">Marketing Science</span>, 2025</li>
+<li>Quantitative Marketing and Economics (QME) Conference, 2024</li>
 </ul>
 </li>
 
@@ -69,33 +69,22 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
 
 <li>
 Lei Wang<span>&#42;</span>, <b>Zikun Ye</b>, Jinglong Zhao<span>&#8224;</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184">Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification.</a>
+<ul>
+<li>Under review</li>
+</ul>
 </li>
 
 <li>
 <b>Zikun Ye</b>, Jiameng Lyu, Rui Tao. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561778">Allocating Human Oversight in AI-Enabled Analytics.</a>
+<ul>
+<li>Under review</li>
+</ul>
 </li>
 
 <li>
 <b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://arxiv.org/abs/2604.17267">Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys.</a>
-</li>
-
-</ul>
-
-<h4>Conference Papers</h4>
-
 <ul>
-
-<li>
-<b>Zikun Ye</b>, Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. <a href="https://dl.acm.org/doi/10.1145/3580507.3597718">Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence.</a>
-<ul>
-<li>ACM Conference on Economics and Computation (EC'23)</li>
-</ul>
-</li>
-
-<li>
-<b>Zikun Ye</b>, Walmart Global Tech. <a href="https://arxiv.org/abs/2312.03253">Seller-side Outcome Fairness in Online Marketplaces.</a>
-<ul>
-<li>NeurIPS 2023: Algorithm Fairness Workshop</li>
+<li>Under review</li>
 </ul>
 </li>
 
