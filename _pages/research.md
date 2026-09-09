@@ -15,6 +15,13 @@ display_title: false
 <ul>
 
 <li>
+<b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://arxiv.org/abs/2505.23842">Fair Document Valuation in LLM Summaries via Shapley Values.</a> [<a href="https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries">Code</a>]
+<ul>
+<li><span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span>, Forthcoming, 2026</li>
+</ul>
+</li>
+
+<li>
 Shuai Li<span>&#42;</span>, <b>Zikun Ye</b>, Xin Chen, Weijun Xie. <a href="https://pubsonline.informs.org/doi/abs/10.1287/msom.2024.1406">Joint Assortment Optimization and Discrete Marketing Mix Allocation.</a>
 <ul>
 <li><span style="color: var(--global-theme-color); font-weight: 700;">Manufacturing &amp; Service Operations Management</span>, 2026</li>
@@ -61,31 +68,15 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
 <ul>
 
 <li>
-<b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://arxiv.org/abs/2505.23842">Fair Document Valuation in LLM Summaries via Shapley Values.</a> [<a href="https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries">Code</a>]
-<ul>
-<li>Minor revision in <span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span></li>
-</ul>
+<b>Zikun Ye</b>, Jiameng Lyu, Rui Tao. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561778">Allocating Human Oversight in AI-Enabled Analytics.</a>
 </li>
 
 <li>
 Lei Wang<span>&#42;</span>, <b>Zikun Ye</b>, Jinglong Zhao<span>&#8224;</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184">Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification.</a>
-<ul>
-<li>Under review</li>
-</ul>
-</li>
-
-<li>
-<b>Zikun Ye</b>, Jiameng Lyu, Rui Tao. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561778">Allocating Human Oversight in AI-Enabled Analytics.</a>
-<ul>
-<li>Under review</li>
-</ul>
 </li>
 
 <li>
 <b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://arxiv.org/abs/2604.17267">Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys.</a>
-<ul>
-<li>Under review</li>
-</ul>
 </li>
 
 </ul>
