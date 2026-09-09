@@ -16,6 +16,7 @@ I earned my Ph.D. in Operations Research from the University of Illinois at Urba
 
 ## Journal Publications
 
+- **Fair Document Valuation in LLM Summaries via Shapley Values**. Zikun Ye, Hema Yoganarasimhan. *Management Science*, forthcoming, 2026. Code: https://github.com/Changyzzz/Document-Valuation-in-LLM-Summaries. https://arxiv.org/abs/2505.23842
 - **Joint Assortment Optimization and Discrete Marketing Mix Allocation**. Shuai Li, Zikun Ye, Xin Chen, Weijun Xie. *Manufacturing & Service Operations Management*, 2026. https://pubsonline.informs.org/doi/abs/10.1287/msom.2024.1406
 - **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**. Zikun Ye, Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. *Management Science*, 2025. First Prize, INFORMS Social Media Analytics Best Student Paper Award, 2023. https://pubsonline.informs.org/doi/full/10.1287/mnsc.2024.04625
 - **LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments**. Zikun Ye, Hema Yoganarasimhan, Yufeng Zheng. *Marketing Science*, 2025. Code: https://github.com/DDDOH/LLM_News. https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990
@@ -24,10 +25,9 @@ I earned my Ph.D. in Operations Research from the University of Illinois at Urba
 
 ## Working Papers
 
-- **Fair Document Valuation in LLM Summaries via Shapley Values**. Zikun Ye, Hema Yoganarasimhan. Minor revision at *Management Science*. https://arxiv.org/abs/2505.23842
-- **Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification**. Lei Wang, Zikun Ye, Jinglong Zhao (alphabetical authorship). Under review. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184
-- **Allocating Human Oversight in AI-Enabled Analytics**. Zikun Ye, Jiameng Lyu, Rui Tao. Under review. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561778
-- **Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys**. Zikun Ye, Hema Yoganarasimhan. Under review. https://arxiv.org/abs/2604.17267
+- **Allocating Human Oversight in AI-Enabled Analytics**. Zikun Ye, Jiameng Lyu, Rui Tao. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561778
+- **Efficient Inference Using Large Language Models with Limited Human Data: Fine-Tuning then Rectification**. Lei Wang, Zikun Ye, Jinglong Zhao (alphabetical authorship). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184
+- **Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys**. Zikun Ye, Hema Yoganarasimhan. https://arxiv.org/abs/2604.17267
 
 ## Teaching
 
