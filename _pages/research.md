@@ -57,7 +57,7 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
 <ul>
 <li><span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span>, 2023</li>
 <li>Finalist, INFORMS RMP Section Jeff McGill Best Student Paper, 2020</li>
-<li>Follow-up work with Walmart Global Tech: <a href="https://arxiv.org/abs/2312.03253">Seller-side Outcome Fairness in Online Marketplaces</a>, NeurIPS 2023 Workshop on Algorithmic Fairness through the Lens of Time</li>
+<li>Follow-up work with Walmart Global Tech: <a href="https://arxiv.org/abs/2312.03253">Seller-side Outcome Fairness in Online Marketplaces</a></li>
 </ul>
 </li>
 
@@ -71,7 +71,6 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
 <b>Zikun Ye</b>, Hema Yoganarasimhan. <a href="https://arxiv.org/abs/2604.17267">Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys.</a>
 <ul>
 <li>Major revision in <span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span></li>
-<li>Short version accepted at NeurIPS 2026 Workshop on MLxOR</li>
 </ul>
 </li>
 
@@ -79,7 +78,6 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
 <b>Zikun Ye</b>, Jinglong Zhao, Lei Wang<span>&#42;</span>. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184">Fine-Tune, Then Rectify.</a>
 <ul>
 <li>Under review in <span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span></li>
-<li>Short version accepted at NeurIPS 2026 Workshop on MLxOR</li>
 </ul>
 </li>
 
@@ -100,6 +98,7 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
     <li>Marketing Science</li>
   </ul>
 </li>
+<li>Meritorious Service Award, Management Science, 2024, 2025</li>
 <li>Referee
   <ul>
     <li>Management Science</li>
@@ -109,7 +108,6 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
     <li>Production and Operations Management</li>
   </ul>
 </li>
-<li>Meritorious Service Award, Management Science, 2024, 2025</li>
 <li>Conference Program Committee
   <ul>
     <li>NeurIPS, ACM EC, WWW</li>
