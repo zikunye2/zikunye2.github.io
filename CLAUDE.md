@@ -143,9 +143,28 @@ updates.
 - Sections: Journal Publications, Working Papers, Academic Services
 - **Journal Publications order: newest first.** The most recent (or
   forthcoming) paper goes at the top. Applies to the website and the CV.
-- **Working Papers order is by status**, more advanced first: Minor/Major
-  Revision → Under Review → In Preparation. Applies to the website and
-  `_cv/main.tex`; the two must stay in sync.
+- **Working Papers order: journal first, then status.** Rank by the journal's
+  standing first (*Management Science* ahead of *Production and Operations
+  Management*); within the same journal, the more advanced status goes first
+  (Minor/Major Revision → Under Review → In Preparation). So an MS paper under
+  review still sits above a POM major revision. Current order: Rectification
+  Difficulty (MS, major revision) → Fine-Tune, Then Rectify (MS, under
+  review) → Allocating Human Oversight (POM, major revision). If it is unclear
+  how two journals rank, ask Zikun. Applies to the website, `llms.txt` and
+  `_cv/main.tex`; keep all three in sync.
+- **No workshops on the website or in `llms.txt`.** Zikun feels they
+  undersell the journal statuses. The CV keeps them, worded "Short version
+  accepted for presentation at the NeurIPS 2026 Workshop on ML×OR" (written
+  `ML$\times$OR`, a real multiplication sign, never the letter x). Selective
+  conferences such as ACM EC are fine on the site.
+- The Walmart workshop paper appears on the site only as "Follow-up work with
+  Walmart Global Tech: <title link>" under the Cold Start paper. Never call
+  it an "industry implementation"; its experiments were offline.
+- Cold Start's author list omits Zhiwei Xu on purpose (Zikun's call, even
+  though Crossref lists him). Don't add him back.
+- Academic Services: discussant roles are not service, so never list them.
+  The *Management Science* Meritorious Service Award (2024, 2025) goes right
+  after the Editorial Review Board and before Referee, on the site and the CV.
 - **CV-only rule:** in the `Working Papers` section of `_cv/main.tex`, journal
   names must NOT be bolded — no `\textbf{}` around them, keep them plain
   inside the italic status phrase. Journal Publications in the CV still use
