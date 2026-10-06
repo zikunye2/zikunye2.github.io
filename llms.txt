@@ -22,19 +22,20 @@ I earned my Ph.D. in Operations Research from the University of Illinois at Urba
 - **Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence**. Zikun Ye, Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. *Management Science*, 2025. First Prize, INFORMS Social Media Analytics Best Student Paper Award, 2023. https://pubsonline.informs.org/doi/full/10.1287/mnsc.2024.04625
 - **Efficient Algorithms for a Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management**. Xin Chen, Niao He, Yifan Hu, Zikun Ye (alphabetical authorship). *Operations Research*, 2024. https://pubsonline.informs.org/doi/10.1287/opre.2022.0216
 - **Cold Start to Improve Market Thickness on Online Advertising Platforms: Data-Driven Algorithms and Field Experiments**. Zikun Ye, Dennis Zhang, Heng Zhang, Renyu Zhang, Xin Chen. *Management Science*, 2023. Finalist, INFORMS RMP Section Jeff McGill Best Student Paper, 2020. https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4550
+  - Follow-up work with Walmart Global Tech: **Seller-side Outcome Fairness in Online Marketplaces**. NeurIPS 2023 Workshop on Algorithmic Fairness through the Lens of Time. https://arxiv.org/abs/2312.03253
 
 ## Working Papers
 
-- **Allocating Human Oversight in AI-Enabled Analytics**. Zikun Ye, Jiameng Lyu, Rui Tao. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561778
-- **Fine-Tune, Then Rectify**. Zikun Ye, Jinglong Zhao, Lei Wang. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184
-- **Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys**. Zikun Ye, Hema Yoganarasimhan. https://arxiv.org/abs/2604.17267
+- **Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys**. Zikun Ye, Hema Yoganarasimhan. Major revision at *Management Science*. Short version accepted at NeurIPS 2026 Workshop on MLxOR. https://arxiv.org/abs/2604.17267
+- **Fine-Tune, Then Rectify**. Zikun Ye, Jinglong Zhao, Lei Wang. Under review at *Management Science*. Short version accepted at NeurIPS 2026 Workshop on MLxOR. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5763184
+- **Allocating Human Oversight in AI-Enabled Analytics**. Zikun Ye, Jiameng Lyu, Rui Tao. Major revision at *Production and Operations Management*. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6561778
 
 ## Teaching
 
 University of Washington, Foster School of Business:
 
 - **MKTG 565 / MKTG 490: Building Business Applications of LLMs and Generative Models** — every spring quarter, starting Spring 2026. MBA and undergraduate sections. Syllabus: https://zikunye.com/mktg565/
-- **BUS AN 514: Analytics for Marketing Decisions** — Winter 2026, MSBA
+- **BUS AN 514: Analytics for Firm Decisions** — Winter 2026, MSBA
 - **MKTG 564 / MKTG 464: Analytics for Marketing Decisions** — Spring 2024, 2025, MBA and undergraduate
 - **BUS AN 599: Business Analytics Practicum** — Spring 2024, 2025, 2026
 
@@ -46,6 +47,7 @@ University of Illinois Urbana-Champaign:
 
 - Editorial Review Board: *Marketing Science*
 - Referee: *Management Science*, *Operations Research*, *Journal of Marketing Research*, *Manufacturing & Service Operations Management*, *Production and Operations Management*
+- Meritorious Service Award: *Management Science*, 2024, 2025
 - Conference Program Committee: NeurIPS, ACM EC, WWW
 - Session Chair: INFORMS Annual Meeting 2022, 2023, 2025; ISMS 2025
 

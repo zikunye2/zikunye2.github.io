@@ -22,7 +22,7 @@ display_title: false
 - MKTG 579 Building Business Applications of LLMs and Generative Models (MBA), Spring 2025
 
 **Marketing Analytics**
-- BUS AN 514 Analytics for Marketing Decisions (2 MSBA Sessions), Winter 2026
+- BUS AN 514 Analytics for Firm Decisions (2 MSBA Sessions), Winter 2026
 - MKTG 564 Analytics for Marketing Decisions (MBA), Spring 2024, 2025
 - MKTG 464 Analytics for Marketing Decisions (Undergrad), Spring 2024, 2025
 - BUS AN 599 Business Analytics Practicum, Spring 2024, 2025, 2026

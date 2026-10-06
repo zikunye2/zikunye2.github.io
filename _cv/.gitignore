@@ -1,0 +1,8 @@
+# LaTeX build artifacts (the deployed PDFs live in ../files/ and ../assets/pdf/)
+*.aux
+*.log
+*.out
+*.pdf
+*.synctex.gz
+*.fls
+*.fdb_latexmk

@@ -25,6 +25,32 @@ separate deploy step. Check status with:
 gh run list --workflow=deploy.yml --limit 3
 ```
 
+## CV source lives in `_cv/`
+
+The CV LaTeX source is `_cv/main.tex` (class `_cv/resume.cls`). Jekyll does
+not publish `_cv/`, and because it is in this repo, the pull-first/push-after
+rule above covers it. Never edit a CV copy outside this repo. Compile and
+update both published copies, then commit `_cv/main.tex` together with the
+two PDFs (build artifacts are git-ignored):
+
+```sh
+cd _cv && pdflatex main.tex && cp main.pdf ../assets/pdf/CV_zikunye.pdf && cp main.pdf ../files/CV_zikunye.pdf
+```
+
+Until 2026-10-06 the source lived outside the repo in `../CV_zikunye/`, so
+each Mac had its own unsynced copy and they diverged. If `../CV_zikunye` on
+this machine is still a real folder (not a symlink to `zikunye2.github.io/_cv`),
+it is obsolete: diff its `main.tex` against `_cv/main.tex` and merge anything
+newer into `_cv/`, then `mv ../CV_zikunye ../CV_zikunye_old` and
+`ln -s zikunye2.github.io/_cv ../CV_zikunye` so older instructions still
+resolve.
+
+BasicTeX lacks `wrapfig`, `enumitem`, `kantlipsum` and `textpos`. If
+`pdflatex` reports one missing, download those archives from
+`https://mirror.ctan.org/systems/texlive/tlnet/archive/<name>.tar.xz` and
+copy their `tex/` folder into `~/Library/texmf/`. The four total about 50 KB,
+and this needs no sudo.
+
 ## Keep llms.txt in sync
 
 `llms.txt` at the repo root is an AI-readable summary of the site, covering
