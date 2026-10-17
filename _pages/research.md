@@ -29,16 +29,9 @@ Shuai Li<span>&#42;</span>, <b>Zikun Ye</b>, Xin Chen, Weijun Xie. <a href="http
 </li>
 
 <li>
-<b>Zikun Ye</b>, Hema Yoganarasimhan, Yufeng Zheng. <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990">LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments.</a> [<a href="https://github.com/DDDOH/LLM_News">Code</a>]
-<ul>
-<li><span style="color: var(--global-theme-color); font-weight: 700;">Marketing Science</span>, 2025</li>
-</ul>
-</li>
-
-<li>
 <b>Zikun Ye</b>, Zhiqi Zhang, Dennis Zhang, Heng Zhang, Renyu Zhang. <a href="https://pubsonline.informs.org/doi/full/10.1287/mnsc.2024.04625">Deep-Learning-Based Causal Inference for Large-Scale Combinatorial Experiments: Theory and Empirical Evidence.</a> [<a href="https://github.com/ZhiqiZhang1229/Deep-learning-based-causal-inference-for-large-scale-combinatorial-experiments-">Code</a>]
 <ul>
-<li><span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span>, 2025</li>
+<li><span style="color: var(--global-theme-color); font-weight: 700;">Management Science</span>, 2026</li>
 <li>Accepted at ACM Conference on Economics and Computation (EC'23)</li>
 <li>First Prize, INFORMS Social Media Analytics Best Student Paper Award, 2023</li>
 <li>Second Prize, CSAMSE Best Paper Award, 2023</li>
@@ -46,9 +39,16 @@ Shuai Li<span>&#42;</span>, <b>Zikun Ye</b>, Xin Chen, Weijun Xie. <a href="http
 </li>
 
 <li>
+<b>Zikun Ye</b>, Hema Yoganarasimhan, Yufeng Zheng. <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990">LOLA: LLM-Assisted Online Learning Algorithm for Content Experiments.</a> [<a href="https://github.com/DDDOH/LLM_News">Code</a>]
+<ul>
+<li><span style="color: var(--global-theme-color); font-weight: 700;">Marketing Science</span>, 2025</li>
+</ul>
+</li>
+
+<li>
 Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https://pubsonline.informs.org/doi/10.1287/opre.2022.0216">Efficient Algorithms for a Class of Stochastic Hidden Convex Optimization and Its Applications in Network Revenue Management.</a> [<a href="https://pubsonline.informs.org/doi/suppl/10.1287/opre.2022.0216">Code</a>]
 <ul>
-<li><span style="color: var(--global-theme-color); font-weight: 700;">Operations Research</span>, 2024</li>
+<li><span style="color: var(--global-theme-color); font-weight: 700;">Operations Research</span>, 2025</li>
 </ul>
 </li>
 
@@ -106,11 +106,7 @@ Xin Chen, Niao He, Yifan Hu, <b>Zikun Ye</b><span>&#8224;</span>. <a href="https
     <li>Journal of Marketing Research</li>
     <li>Manufacturing &amp; Service Operations Management</li>
     <li>Production and Operations Management</li>
-  </ul>
-</li>
-<li>Conference Program Committee
-  <ul>
-    <li>NeurIPS, ACM EC, WWW</li>
+    <li>Conferences: NeurIPS, ACM EC, WWW</li>
   </ul>
 </li>
 <li>Session Chair, INFORMS Annual Meeting, 2022, 2023, 2025</li>

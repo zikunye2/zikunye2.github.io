@@ -157,18 +157,34 @@ updates.
   accepted for presentation at the NeurIPS 2026 Workshop on ML×OR" (written
   `ML$\times$OR`, a real multiplication sign, never the letter x). Selective
   conferences such as ACM EC are fine on the site.
-- The Walmart workshop paper appears on the site only as "Follow-up work with
-  Walmart Global Tech: <title link>" under the Cold Start paper. Never call
-  it an "industry implementation"; its experiments were offline.
+- The Walmart workshop paper appears on the site and in the CV only as
+  "Follow-up work with Walmart Global Tech: <title link>" under the Cold Start
+  paper (the CV also names the NeurIPS 2023 workshop). Never call it an
+  "industry implementation"; its experiments were offline.
 - Cold Start's author list omits Zhiwei Xu on purpose (Zikun's call, even
   though Crossref lists him). Don't add him back.
-- Academic Services: discussant roles are not service, so never list them.
-  The *Management Science* Meritorious Service Award (2024, 2025) goes right
-  after the Editorial Review Board and before Referee, on the site and the CV.
+- Academic Services: discussant roles are not service, so never list them
+  there (the CV lists them under Academic Talks). The *Management Science*
+  Meritorious Service Award (2024, 2025) goes right after the Editorial
+  Review Board and before Referee, on the site and the CV.
+- **Conference reviewing is refereeing, never "Program Committee".** NeurIPS,
+  ACM EC and WWW go under Referee as "Conferences: …" on the site, in
+  `llms.txt` and in the CV (the CV also lists the Workshop on Platform
+  Analytics there).
 - **CV-only rule:** in the `Working Papers` section of `_cv/main.tex`, journal
   names must NOT be bolded — no `\textbf{}` around them, keep them plain
   inside the italic status phrase. Journal Publications in the CV still use
   `\textbf{}` for journal names.
+- **CV papers are unnumbered.** A published paper cites its print year and
+  volume(issue), e.g. "*Management Science*, 2026, 72(7)". When an
+  online-first paper gets an issue, update its year on the CV, the site and
+  `llms.txt`, and re-sort newest first.
+- **CV Academic Talks:** one list, newest first, year only (no months, no
+  "(scheduled)"). Discussant roles go in this list, marked "(discussant)".
+  Spell out acronyms ("ISMS Marketing Science Conference", "MIT Data Science
+  Lab"). Within a year, order entries so the same series in consecutive
+  years (e.g. ISMS 2025 and ISMS 2024) is not adjacent.
+- The CV's "Last updated" line stays at the very end, not in the header.
 
 ## Commit messages
 
